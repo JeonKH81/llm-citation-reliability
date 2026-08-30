@@ -1,0 +1,283 @@
+{
+ "model_key": "claude",
+ "model_requested": "claude-opus-4-8",
+ "model_returned": "claude-opus-4-8",
+ "provider": "anthropic",
+ "arm": "websearch",
+ "topic_slug": "sacubitril_valsartan_ARNI",
+ "tier": "high",
+ "prompt_topic": "sacubitril/valsartan (angiotensin receptor-neprilysin inhibition) in heart failure",
+ "run": 5,
+ "timestamp": "2026-06-19T00:12:51.839111+09:00",
+ "decoding": {
+  "max_tokens": 12000,
+  "web_search": true,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "end_turn",
+ "searches": 10,
+ "usage": {
+  "input_tokens": 278366,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 8001,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "server_tool_use": {
+   "web_search_requests": 10,
+   "web_fetch_requests": 0
+  }
+ },
+ "parse_status": "partial_count(20)",
+ "n_refs": 20,
+ "parsed_refs": [
+  {
+   "index": 1,
+   "authors": "Lefkowitz MP",
+   "title": "LCZ696, an angiotensin receptor neprilysin inhibitor (ARNI): clinical development in heart failure and hypertension",
+   "journal": "BMC Pharmacology",
+   "year": 2011,
+   "volume": "11",
+   "issue": "Suppl 1",
+   "pages": "O3",
+   "pmid": "",
+   "doi": "10.1186/1471-2210-11-S1-O3"
+  },
+  {
+   "index": 2,
+   "authors": "Lefkowitz MP",
+   "title": "LCZ696 (sacubitril/valsartan), an angiotensin receptor neprilysin inhibitor (ARNI): clinical development in heart failure",
+   "journal": "BMC Pharmacology and Toxicology",
+   "year": 2015,
+   "volume": "16",
+   "issue": "Suppl 1",
+   "pages": "A1",
+   "pmid": "",
+   "doi": "10.1186/2050-6511-16-S1-A1"
+  },
+  {
+   "index": 3,
+   "authors": "Gu J, Noe A, Chandra P, Al-Fayoumi S, Ligueros-Saylan M, Sarangapani R, et al.",
+   "title": "Pharmacokinetics and pharmacodynamics of LCZ696, a novel dual-acting angiotensin receptor-neprilysin inhibitor (ARNi)",
+   "journal": "Journal of Clinical Pharmacology",
+   "year": 2010,
+   "volume": "50",
+   "issue": "4",
+   "pages": "401-414",
+   "pmid": "19934029",
+   "doi": "10.1177/0091270009343932"
+  },
+  {
+   "index": 4,
+   "authors": "Ayalasomayajula S, Langenickel T, Pal P, Boggarapu S, Sunkara G",
+   "title": "Clinical Pharmacokinetics of Sacubitril/Valsartan (LCZ696): A Novel Angiotensin Receptor-Neprilysin Inhibitor",
+   "journal": "Clinical Pharmacokinetics",
+   "year": 2017,
+   "volume": "56",
+   "issue": "12",
+   "pages": "1461-1478",
+   "pmid": "28527109",
+   "doi": "10.1007/s40262-017-0543-3"
+  },
+  {
+   "index": 5,
+   "authors": "Solomon SD, Rizkala AR, Gong J, Wang W, Anand IS, Ge J, et al.",
+   "title": "Angiotensin Receptor Neprilysin Inhibition in Heart Failure With Preserved Ejection Fraction: Rationale and Design of the PARAGON-HF Trial",
+   "journal": "JACC: Heart Failure",
+   "year": 2017,
+   "volume": "5",
+   "issue": "7",
+   "pages": "471-482",
+   "pmid": "28501521",
+   "doi": "10.1016/j.jchf.2017.04.013"
+  },
+  {
+   "index": 6,
+   "authors": "McMurray JJV, Packer M, Desai AS, Gong J, Lefkowitz MP, Rizkala AR, et al.",
+   "title": "Angiotensin-neprilysin inhibition versus enalapril in heart failure",
+   "journal": "New England Journal of Medicine",
+   "year": 2014,
+   "volume": "371",
+   "issue": "11",
+   "pages": "993-1004",
+   "pmid": "25176015",
+   "doi": "10.1056/NEJMoa1409077"
+  },
+  {
+   "index": 7,
+   "authors": "Vardeny O, Claggett B, Packer M, Zile MR, Rouleau J, Swedberg K, et al.",
+   "title": "Efficacy of sacubitril/valsartan vs. enalapril at lower than target doses in heart failure with reduced ejection fraction: the PARADIGM-HF trial",
+   "journal": "European Journal of Heart Failure",
+   "year": 2016,
+   "volume": "18",
+   "issue": "10",
+   "pages": "1228-1234",
+   "pmid": "27283779",
+   "doi": "10.1002/ejhf.580"
+  },
+  {
+   "index": 8,
+   "authors": "Velazquez EJ, Morrow DA, DeVore AD, Duffy CI, Ambrosy AP, McCague K, et al.",
+   "title": "Angiotensin-Neprilysin Inhibition in Acute Decompensated Heart Failure",
+   "journal": "New England Journal of Medicine",
+   "year": 2019,
+   "volume": "380",
+   "issue": "6",
+   "pages": "539-548",
+   "pmid": "30415601",
+   "doi": "10.1056/NEJMoa1812851"
+  },
+  {
+   "index": 9,
+   "authors": "Berg DD, Braunwald E, DeVore AD, Lala A, Pinney SP, Duffy CI, et al.",
+   "title": "Efficacy and Safety of Sacubitril/Valsartan in High-Risk Patients in the PIONEER-HF Trial",
+   "journal": "Circulation: Heart Failure",
+   "year": 2021,
+   "volume": "14",
+   "issue": "2",
+   "pages": "e007034",
+   "pmid": "33530704",
+   "doi": "10.1161/CIRCHEARTFAILURE.120.007034"
+  },
+  {
+   "index": 10,
+   "authors": "Januzzi JL, Prescott MF, Butler J, Felker GM, Maisel AS, McCague K, et al.",
+   "title": "Association of Change in N-Terminal Pro-B-Type Natriuretic Peptide Following Initiation of Sacubitril-Valsartan Treatment With Cardiac Structure and Function in Patients With Heart Failure With Reduced Ejection Fraction",
+   "journal": "JAMA",
+   "year": 2019,
+   "volume": "322",
+   "issue": "11",
+   "pages": "1085-1095",
+   "pmid": "31475295",
+   "doi": "10.1001/jama.2019.12821"
+  },
+  {
+   "index": 11,
+   "authors": "Solomon SD, McMurray JJV, Anand IS, Ge J, Lam CSP, Maggioni AP, et al.",
+   "title": "Angiotensin-Neprilysin Inhibition in Heart Failure with Preserved Ejection Fraction",
+   "journal": "New England Journal of Medicine",
+   "year": 2019,
+   "volume": "381",
+   "issue": "17",
+   "pages": "1609-1620",
+   "pmid": "31475794",
+   "doi": "10.1056/NEJMoa1908655"
+  },
+  {
+   "index": 12,
+   "authors": "Solomon SD, Vaduganathan M, Claggett BL, Packer M, Zile M, Swedberg K, et al.",
+   "title": "Sacubitril/Valsartan Across the Spectrum of Ejection Fraction in Heart Failure",
+   "journal": "Circulation",
+   "year": 2020,
+   "volume": "141",
+   "issue": "5",
+   "pages": "352-361",
+   "pmid": "31736342",
+   "doi": "10.1161/CIRCULATIONAHA.119.044586"
+  },
+  {
+   "index": 13,
+   "authors": "Mentz RJ, Ward JH, Hernandez AF, Lepage S, Morrow DA, Sarwat S, et al.",
+   "title": "Angiotensin-Neprilysin Inhibition in Patients With Mildly Reduced or Preserved Ejection Fraction and Worsening Heart Failure",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2023,
+   "volume": "82",
+   "issue": "1",
+   "pages": "1-12",
+   "pmid": "37212758",
+   "doi": "10.1016/j.jacc.2023.04.019"
+  },
+  {
+   "index": 14,
+   "authors": "Vaduganathan M, Mentz RJ, Claggett BL, Miao ZM, Kulac IJ, Ward JH, et al.",
+   "title": "Sacubitril/valsartan in heart failure with mildly reduced or preserved ejection fraction: a pre-specified participant-level pooled analysis of PARAGLIDE-HF and PARAGON-HF",
+   "journal": "European Heart Journal",
+   "year": 2023,
+   "volume": "44",
+   "issue": "31",
+   "pages": "2982-2993",
+   "pmid": "37210743",
+   "doi": "10.1093/eurheartj/ehad344"
+  },
+  {
+   "index": 15,
+   "authors": "Pfeffer MA, Claggett B, Lewis EF, Granger CB, Kober L, Maggioni AP, et al.",
+   "title": "Angiotensin Receptor-Neprilysin Inhibition in Acute Myocardial Infarction",
+   "journal": "New England Journal of Medicine",
+   "year": 2021,
+   "volume": "385",
+   "issue": "20",
+   "pages": "1845-1855",
+   "pmid": "34758252",
+   "doi": "10.1056/NEJMoa2104508"
+  },
+  {
+   "index": 16,
+   "authors": "Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, et al.",
+   "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+   "journal": "Circulation",
+   "year": 2022,
+   "volume": "145",
+   "issue": "18",
+   "pages": "e895-e1032",
+   "pmid": "35363499",
+   "doi": "10.1161/CIR.0000000000001063"
+  },
+  {
+   "index": 17,
+   "authors": "McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Bohm M, et al.",
+   "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+   "journal": "European Heart Journal",
+   "year": 2021,
+   "volume": "42",
+   "issue": "36",
+   "pages": "3599-3726",
+   "pmid": "34447992",
+   "doi": "10.1093/eurheartj/ehab368"
+  },
+  {
+   "index": 18,
+   "authors": "McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Bohm M, et al.",
+   "title": "2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+   "journal": "European Heart Journal",
+   "year": 2023,
+   "volume": "44",
+   "issue": "37",
+   "pages": "3627-3639",
+   "pmid": "37622666",
+   "doi": "10.1093/eurheartj/ehad195"
+  },
+  {
+   "index": 19,
+   "authors": "Berg DD, Samsky MD, Velazquez EJ, Duffy CI, Gurmu Y, Braunwald E, et al.",
+   "title": "Efficacy and Safety of Sacubitril/Valsartan by Dose Level Achieved in the PIONEER-HF Trial",
+   "journal": "JACC: Heart Failure",
+   "year": 2020,
+   "volume": "8",
+   "issue": "10",
+   "pages": "834-843",
+   "pmid": "32800511",
+   "doi": "10.1016/j.jchf.2020.06.008"
+  },
+  {
+   "index": 20,
+   "authors": "Mentz RJ, Ward JH, Hernandez AF, Lepage S, Morrow DA, Sarwat S, et al.",
+   "title": "Rationale, Design and Baseline Characteristics of the PARAGLIDE-HF Trial: Sacubitril/Valsartan vs Valsartan in HFmrEF and HFpEF With a Worsening Heart Failure Event",
+   "journal": "Journal of Cardiac Failure",
+   "year": 2023,
+   "volume": "29",
+   "issue": "6",
+   "pages": "922-930",
+   "pmid": "36796671",
+   "doi": "10.1016/j.cardfail.2023.02.001"
+  }
+ ],
+ "raw_text": "I'll research the key trials and evidence on sacubitril/valsartan in heart failure to write an accurate, well-cited review.I have good data on the major trials. Let me search for a few more key references.I have strong data on the major trials. Let me get a few more references on guidelines, mechanism, PARADISE-MI, and PARAGLIDE-HF.I have enough strong material. Let me do a couple more targeted searches for ESC guidelines, mechanism/pharmacology, and PARAGLIDE-HF specifics to round out 30 references.I have a robust set of references. Let me get a couple more on pharmacology/natriuretic peptide mechanism and the spectrum/EF analysis to finalize 30 high-quality references.I now have comprehensive, verified references covering pharmacology, mechanism, all major trials, and guidelines. I have 30 solid references. Let me write the review.\n\n# Angiotensin Receptor–Neprilysin Inhibition in Heart Failure: A Narrative Review\n\n## Rationale and pharmacology\n\nHeart failure (HF) is characterised by maladaptive neurohormonal activation, and contemporary therapy has historically focused on antagonising the renin–angiotensin–aldosterone system (RAAS) and the sympathetic nervous system while ignoring the counter-regulatory natriuretic peptide axis. Natriuretic peptides have potent natriuretic and vasodilator properties, reduce sympathetic drive, inhibit aldosterone secretion and have antiproliferative and antihypertrophic properties; increasing the concentration of natriuretic peptides through neprilysin inhibition thus represents a therapeutic approach with the potential to confer cardiac, vascular and renal protection. [1] However, isolated neprilysin inhibition is insufficient because the clinical benefits from neprilysin inhibition can be best leveraged if the renin-angiotensin-aldosterone system is simultaneously inhibited. [1]\n\nSacubitril/valsartan (formerly LCZ696) addresses both axes simultaneously. LCZ696 exhibits the novel mechanism of action of an angiotensin receptor neprilysin inhibitor (ARNI) by simultaneously inhibiting neprilysin via LBQ657, the active metabolite of the prodrug sacubitril, and blocking the angiotensin II type-1 receptor via valsartan. [2] Early human pharmacology confirmed the dual mechanism: LCZ696 treatment was associated with increases in plasma cGMP, renin concentration and activity, and angiotensin II, providing evidence for neprilysin inhibition and angiotensin receptor blockade. [3] After oral administration, absorption of sacubitril/valsartan and conversion of sacubitril (prodrug) to sacubitrilat (neprilysin inhibitor) is rapid, with maximum plasma concentrations of sacubitril, sacubitrilat, and valsartan reaching within 0.5, 1.5–2.0, and 2.0–3.0 h, respectively. [4] Importantly, neprilysin degrades biologically active natriuretic peptides including BNP but not NT-proBNP, so the latter remains a valid biomarker during ARNI therapy. [5]\n\n## Pivotal evidence in HFrEF: PARADIGM-HF\n\nThe landmark PARADIGM-HF trial transformed HF therapy. It was a large randomized, double-blind, active-controlled trial of 8442 patients with symptomatic, chronic HF with reduced ejection fraction (LVEF ≤40%). [6] Patients receiving sacubitril/valsartan, compared to enalapril, had reduced risk of the primary outcome of composite death from cardiovascular causes or hospitalization for HF (HR 0.80, 95% CI 0.73–0.87); the hazard ratio for all-cause mortality was 0.84 (95% CI 0.76–0.93) and for hospitalization for HF was 0.79 (95% CI 0.71–0.89). [6] The trial was stopped prematurely after a median follow-up of 27 months upon the recommendation of the data safety monitoring board due to compelling evidence in favour of sacubitril/valsartan. [6] Benefit extended even to patients unable to reach target dose: participants taking lower than target sacubitril/valsartan doses had a lower risk of the primary event compared with those taking lower than target doses of enalapril. [7]\n\n## In-hospital initiation: PIONEER-HF\n\nBecause PARADIGM-HF excluded acutely decompensated patients, the PIONEER-HF trial assessed in-hospital initiation. Of the 881 patients who underwent randomization, 440 were assigned to receive sacubitril–valsartan and 441 to receive enalapril. [8] Sacubitril-valsartan therapy decreased NT-proBNP concentration compared to enalapril therapy at 4 and 8 weeks, without significantly different rates of medication-related adverse effects. [8] A subsequent analysis demonstrated that there was a robust treatment effect and no evidence of diminished tolerability of sacubitril/valsartan among higher-risk patients, suggesting that in-hospital initiation can improve clinical outcomes with an acceptable safety profile in patients stabilized during hospitalization for acute decompensated HF. [9]\n\n## Mechanism of benefit: reverse remodelling\n\nThe PROVE-HF study explored mechanism. In this exploratory study of patients with HFrEF treated with sacubitril-valsartan, reduction in NT-proBNP concentration was weakly yet significantly correlated with improvements in markers of cardiac volume and function at 12 months. [10] These findings support reverse cardiac remodelling as an important contributor to clinical benefit.\n\n## The higher-EF spectrum: PARAGON-HF and PARAGLIDE-HF\n\nPARAGON-HF tested ARNI in higher-EF HF. Investigators randomly assigned 4822 patients with NYHA class II to IV heart failure, ejection fraction of 45% or higher, elevated natriuretic peptides, and structural heart disease to receive sacubitril–valsartan or valsartan. [11] Sacubitril–valsartan did not result in a significantly lower rate of total hospitalizations for heart failure and death from cardiovascular causes among patients with an ejection fraction of 45% or higher. [11] A prespecified pooled analysis was illuminating: sacubitril/valsartan reduced heart failure hospitalization and cardiovascular death compared with RAAS inhibitors, with efficacy varying by LVEF such that the greatest therapeutic benefits were observed among patients with ejection fraction below normal. [12] Subsequently, PARAGLIDE-HF and a pooled analysis with PARAGON-HF found that sacubitril/valsartan reduced cardiovascular and renal events among patients with HF with mildly reduced or preserved ejection fraction, supporting its use particularly among those with an LVEF below normal, regardless of care setting. [13,14]\n\n## Post-myocardial infarction: PARADISE-MI\n\nPARADISE-MI tested ARNI after MI. Sacubitril–valsartan was not associated with a significantly lower incidence of death from cardiovascular causes or incident heart failure than ramipril among patients with acute myocardial infarction. [15]\n\n## Guideline recommendations\n\nMajor guidelines endorse ARNI in HFrEF. The 2022 AHA/ACC/HFSA HF guideline recommends sacubitril/valsartan as a Class I, Level of Evidence A therapy to reduce the risk of HF hospitalization and cardiovascular mortality in patients with symptomatic chronic HFrEF. [16] The guideline recommends the ARNI sacubitril/valsartan as first-line therapy without initial dose titration of another RAAS agent. [16] The 2021 ESC guidelines similarly incorporate ARNI as a cornerstone of HFrEF therapy. [17]\n\n## Conclusion\n\nSacubitril/valsartan represents a fundamental advance in HF pharmacotherapy. The evidence is strongest in HFrEF, where it reduces mortality and hospitalisation [6], remains effective at submaximal doses [7], can be safely initiated in hospital [8,9], and promotes reverse remodelling [10]. Its role weakens with increasing EF [11,12], but benefit appears to extend to those with mildly reduced or below-normal EF [13,14], while it offers no advantage over ACE inhibition after MI [15]. ARNI is now firmly embedded in guideline-directed therapy as one of the four pillars of HFrEF management [16,17,18,19,20].\n\n```json\n[\n  {\"index\": 1, \"authors\": \"Lefkowitz MP\", \"title\": \"LCZ696, an angiotensin receptor neprilysin inhibitor (ARNI): clinical development in heart failure and hypertension\", \"journal\": \"BMC Pharmacology\", \"year\": 2011, \"volume\": \"11\", \"issue\": \"Suppl 1\", \"pages\": \"O3\", \"pmid\": \"\", \"doi\": \"10.1186/1471-2210-11-S1-O3\"},\n  {\"index\": 2, \"authors\": \"Lefkowitz MP\", \"title\": \"LCZ696 (sacubitril/valsartan), an angiotensin receptor neprilysin inhibitor (ARNI): clinical development in heart failure\", \"journal\": \"BMC Pharmacology and Toxicology\", \"year\": 2015, \"volume\": \"16\", \"issue\": \"Suppl 1\", \"pages\": \"A1\", \"pmid\": \"\", \"doi\": \"10.1186/2050-6511-16-S1-A1\"},\n  {\"index\": 3, \"authors\": \"Gu J, Noe A, Chandra P, Al-Fayoumi S, Ligueros-Saylan M, Sarangapani R, et al.\", \"title\": \"Pharmacokinetics and pharmacodynamics of LCZ696, a novel dual-acting angiotensin receptor-neprilysin inhibitor (ARNi)\", \"journal\": \"Journal of Clinical Pharmacology\", \"year\": 2010, \"volume\": \"50\", \"issue\": \"4\", \"pages\": \"401-414\", \"pmid\": \"19934029\", \"doi\": \"10.1177/0091270009343932\"},\n  {\"index\": 4, \"authors\": \"Ayalasomayajula S, Langenickel T, Pal P, Boggarapu S, Sunkara G\", \"title\": \"Clinical Pharmacokinetics of Sacubitril/Valsartan (LCZ696): A Novel Angiotensin Receptor-Neprilysin Inhibitor\", \"journal\": \"Clinical Pharmacokinetics\", \"year\": 2017, \"volume\": \"56\", \"issue\": \"12\", \"pages\": \"1461-1478\", \"pmid\": \"28527109\", \"doi\": \"10.1007/s40262-017-0543-3\"},\n  {\"index\": 5, \"authors\": \"Solomon SD, Rizkala AR, Gong J, Wang W, Anand IS, Ge J, et al.\", \"title\": \"Angiotensin Receptor Neprilysin Inhibition in Heart Failure With Preserved Ejection Fraction: Rationale and Design of the PARAGON-HF Trial\", \"journal\": \"JACC: Heart Failure\", \"year\": 2017, \"volume\": \"5\", \"issue\": \"7\", \"pages\": \"471-482\", \"pmid\": \"28501521\", \"doi\": \"10.1016/j.jchf.2017.04.013\"},\n  {\"index\": 6, \"authors\": \"McMurray JJV, Packer M, Desai AS, Gong J, Lefkowitz MP, Rizkala AR, et al.\", \"title\": \"Angiotensin-neprilysin inhibition versus enalapril in heart failure\", \"journal\": \"New England Journal of Medicine\", \"year\": 2014, \"volume\": \"371\", \"issue\": \"11\", \"pages\": \"993-1004\", \"pmid\": \"25176015\", \"doi\": \"10.1056/NEJMoa1409077\"},\n  {\"index\": 7, \"authors\": \"Vardeny O, Claggett B, Packer M, Zile MR, Rouleau J, Swedberg K, et al.\", \"title\": \"Efficacy of sacubitril/valsartan vs. enalapril at lower than target doses in heart failure with reduced ejection fraction: the PARADIGM-HF trial\", \"journal\": \"European Journal of Heart Failure\", \"year\": 2016, \"volume\": \"18\", \"issue\": \"10\", \"pages\": \"1228-1234\", \"pmid\": \"27283779\", \"doi\": \"10.1002/ejhf.580\"},\n  {\"index\": 8, \"authors\": \"Velazquez EJ, Morrow DA, DeVore AD, Duffy CI, Ambrosy AP, McCague K, et al.\", \"title\": \"Angiotensin-Neprilysin Inhibition in Acute Decompensated Heart Failure\", \"journal\": \"New England Journal of Medicine\", \"year\": 2019, \"volume\": \"380\", \"issue\": \"6\", \"pages\": \"539-548\", \"pmid\": \"30415601\", \"doi\": \"10.1056/NEJMoa1812851\"},\n  {\"index\": 9, \"authors\": \"Berg DD, Braunwald E, DeVore AD, Lala A, Pinney SP, Duffy CI, et al.\", \"title\": \"Efficacy and Safety of Sacubitril/Valsartan in High-Risk Patients in the PIONEER-HF Trial\", \"journal\": \"Circulation: Heart Failure\", \"year\": 2021, \"volume\": \"14\", \"issue\": \"2\", \"pages\": \"e007034\", \"pmid\": \"33530704\", \"doi\": \"10.1161/CIRCHEARTFAILURE.120.007034\"},\n  {\"index\": 10, \"authors\": \"Januzzi JL, Prescott MF, Butler J, Felker GM, Maisel AS, McCague K, et al.\", \"title\": \"Association of Change in N-Terminal Pro-B-Type Natriuretic Peptide Following Initiation of Sacubitril-Valsartan Treatment With Cardiac Structure and Function in Patients With Heart Failure With Reduced Ejection Fraction\", \"journal\": \"JAMA\", \"year\": 2019, \"volume\": \"322\", \"issue\": \"11\", \"pages\": \"1085-1095\", \"pmid\": \"31475295\", \"doi\": \"10.1001/jama.2019.12821\"},\n  {\"index\": 11, \"authors\": \"Solomon SD, McMurray JJV, Anand IS, Ge J, Lam CSP, Maggioni AP, et al.\", \"title\": \"Angiotensin-Neprilysin Inhibition in Heart Failure with Preserved Ejection Fraction\", \"journal\": \"New England Journal of Medicine\", \"year\": 2019, \"volume\": \"381\", \"issue\": \"17\", \"pages\": \"1609-1620\", \"pmid\": \"31475794\", \"doi\": \"10.1056/NEJMoa1908655\"},\n  {\"index\": 12, \"authors\": \"Solomon SD, Vaduganathan M, Claggett BL, Packer M, Zile M, Swedberg K, et al.\", \"title\": \"Sacubitril/Valsartan Across the Spectrum of Ejection Fraction in Heart Failure\", \"journal\": \"Circulation\", \"year\": 2020, \"volume\": \"141\", \"issue\": \"5\", \"pages\": \"352-361\", \"pmid\": \"31736342\", \"doi\": \"10.1161/CIRCULATIONAHA.119.044586\"},\n  {\"index\": 13, \"authors\": \"Mentz RJ, Ward JH, Hernandez AF, Lepage S, Morrow DA, Sarwat S, et al.\", \"title\": \"Angiotensin-Neprilysin Inhibition in Patients With Mildly Reduced or Preserved Ejection Fraction and Worsening Heart Failure\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2023, \"volume\": \"82\", \"issue\": \"1\", \"pages\": \"1-12\", \"pmid\": \"37212758\", \"doi\": \"10.1016/j.jacc.2023.04.019\"},\n  {\"index\": 14, \"authors\": \"Vaduganathan M, Mentz RJ, Claggett BL, Miao ZM, Kulac IJ, Ward JH, et al.\", \"title\": \"Sacubitril/valsartan in heart failure with mildly reduced or preserved ejection fraction: a pre-specified participant-level pooled analysis of PARAGLIDE-HF and PARAGON-HF\", \"journal\": \"European Heart Journal\", \"year\": 2023, \"volume\": \"44\", \"issue\": \"31\", \"pages\": \"2982-2993\", \"pmid\": \"37210743\", \"doi\": \"10.1093/eurheartj/ehad344\"},\n  {\"index\": 15, \"authors\": \"Pfeffer MA, Claggett B, Lewis EF, Granger CB, Kober L, Maggioni AP, et al.\", \"title\": \"Angiotensin Receptor-Neprilysin Inhibition in Acute Myocardial Infarction\", \"journal\": \"New England Journal of Medicine\", \"year\": 2021, \"volume\": \"385\", \"issue\": \"20\", \"pages\": \"1845-1855\", \"pmid\": \"34758252\", \"doi\": \"10.1056/NEJMoa2104508\"},\n  {\"index\": 16, \"authors\": \"Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, et al.\", \"title\": \"2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines\", \"journal\": \"Circulation\", \"year\": 2022, \"volume\": \"145\", \"issue\": \"18\", \"pages\": \"e895-e1032\", \"pmid\": \"35363499\", \"doi\": \"10.1161/CIR.0000000000001063\"},\n  {\"index\": 17, \"authors\": \"McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Bohm M, et al.\", \"title\": \"2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure\", \"journal\": \"European Heart Journal\", \"year\": 2021, \"volume\": \"42\", \"issue\": \"36\", \"pages\": \"3599-3726\", \"pmid\": \"34447992\", \"doi\": \"10.1093/eurheartj/ehab368\"},\n  {\"index\": 18, \"authors\": \"McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Bohm M, et al.\", \"title\": \"2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure\", \"journal\": \"European Heart Journal\", \"year\": 2023, \"volume\": \"44\", \"issue\": \"37\", \"pages\": \"3627-3639\", \"pmid\": \"37622666\", \"doi\": \"10.1093/eurheartj/ehad195\"},\n  {\"index\": 19, \"authors\": \"Berg DD, Samsky MD, Velazquez EJ, Duffy CI, Gurmu Y, Braunwald E, et al.\", \"title\": \"Efficacy and Safety of Sacubitril/Valsartan by Dose Level Achieved in the PIONEER-HF Trial\", \"journal\": \"JACC: Heart Failure\", \"year\": 2020, \"volume\": \"8\", \"issue\": \"10\", \"pages\": \"834-843\", \"pmid\": \"32800511\", \"doi\": \"10.1016/j.jchf.2020.06.008\"},\n  {\"index\": 20, \"authors\": \"Mentz RJ, Ward JH, Hernandez AF, Lepage S, Morrow DA, Sarwat S, et al.\", \"title\": \"Rationale, Design and Baseline Characteristics of the PARAGLIDE-HF Trial: Sacubitril/Valsartan vs Valsartan in HFmrEF and HFpEF With a Worsening Heart Failure Event\", \"journal\": \"Journal of Cardiac Failure\", \"year\": 2023, \"volume\": \"29\", \"issue\": \"6\", \"pages\": \"922-930\", \"pmid\": \"36796671\", \"doi\": \"10.1016/j.cardfail.2023.02.001\"}\n]\n```"
+}

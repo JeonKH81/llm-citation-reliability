@@ -1,0 +1,283 @@
+{
+ "model_key": "claude",
+ "model_requested": "claude-opus-4-8",
+ "model_returned": "claude-opus-4-8",
+ "provider": "anthropic",
+ "arm": "websearch",
+ "topic_slug": "cardiac_amyloidosis",
+ "tier": "high",
+ "prompt_topic": "cardiac amyloidosis",
+ "run": 10,
+ "timestamp": "2026-06-19T00:24:27.518296+09:00",
+ "decoding": {
+  "max_tokens": 12000,
+  "web_search": true,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "end_turn",
+ "searches": 10,
+ "usage": {
+  "input_tokens": 306267,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 6891,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "server_tool_use": {
+   "web_search_requests": 10,
+   "web_fetch_requests": 0
+  }
+ },
+ "parse_status": "partial_count(20)",
+ "n_refs": 20,
+ "parsed_refs": [
+  {
+   "index": 1,
+   "authors": "Wechalekar AD, Gillmore JD, Hawkins PN",
+   "title": "Systemic amyloidosis",
+   "journal": "Lancet",
+   "year": 2016,
+   "volume": "387",
+   "issue": "10038",
+   "pages": "2641-2654",
+   "pmid": "26719234",
+   "doi": "10.1016/S0140-6736(15)01274-X"
+  },
+  {
+   "index": 2,
+   "authors": "Aimo A, Castiglione V, Rapezzi C, et al.",
+   "title": "Efficacy of tafamidis in transthyretin amyloid cardiomyopathy: a systematic review and meta-analysis",
+   "journal": "Ann Med Surg (Lond)",
+   "year": 2023,
+   "volume": "86",
+   "issue": "1",
+   "pages": "309-318",
+   "pmid": "38222715",
+   "doi": "10.1097/MS9.0000000000001515"
+  },
+  {
+   "index": 3,
+   "authors": "Ruberg FL, Grogan M, Hanna M, Kelly JW, Maurer MS",
+   "title": "Transthyretin Amyloid Cardiomyopathy: JACC State-of-the-Art Review",
+   "journal": "J Am Coll Cardiol",
+   "year": 2019,
+   "volume": "73",
+   "issue": "22",
+   "pages": "2872-2891",
+   "pmid": "31171094",
+   "doi": "10.1016/j.jacc.2019.04.003"
+  },
+  {
+   "index": 4,
+   "authors": "González-López E, Gallego-Delgado M, Guzzo-Merello G, et al.",
+   "title": "Wild-type transthyretin amyloidosis as a cause of heart failure with preserved ejection fraction",
+   "journal": "Eur Heart J",
+   "year": 2015,
+   "volume": "36",
+   "issue": "38",
+   "pages": "2585-2594",
+   "pmid": "26224076",
+   "doi": "10.1093/eurheartj/ehv338"
+  },
+  {
+   "index": 5,
+   "authors": "Ioannou A, Patel RK, Razvi Y, et al.",
+   "title": "Impact of Earlier Diagnosis in Cardiac ATTR Amyloidosis Over the Course of 20 Years",
+   "journal": "Circulation",
+   "year": 2022,
+   "volume": "146",
+   "issue": "22",
+   "pages": "1657-1670",
+   "pmid": "36286077",
+   "doi": "10.1161/CIRCULATIONAHA.122.060852"
+  },
+  {
+   "index": 6,
+   "authors": "Gillmore JD, Maurer MS, Falk RH, et al.",
+   "title": "Nonbiopsy Diagnosis of Cardiac Transthyretin Amyloidosis",
+   "journal": "Circulation",
+   "year": 2016,
+   "volume": "133",
+   "issue": "24",
+   "pages": "2404-2412",
+   "pmid": "27143678",
+   "doi": "10.1161/CIRCULATIONAHA.116.021612"
+  },
+  {
+   "index": 7,
+   "authors": "Huntjens PR, Zhang KW, Soyama Y, et al.",
+   "title": "Prognostic Utility of Echocardiographic Atrial and Ventricular Strain Imaging in Patients With Cardiac Amyloidosis",
+   "journal": "JACC Cardiovasc Imaging",
+   "year": 2021,
+   "volume": "14",
+   "issue": "8",
+   "pages": "1508-1519",
+   "pmid": "33744146",
+   "doi": "10.1016/j.jcmg.2021.01.016"
+  },
+  {
+   "index": 8,
+   "authors": "Martinez-Naharro A, Kotecha T, Norrington K, et al.",
+   "title": "Native T1 and Extracellular Volume in Transthyretin Amyloidosis",
+   "journal": "JACC Cardiovasc Imaging",
+   "year": 2019,
+   "volume": "12",
+   "issue": "5",
+   "pages": "810-819",
+   "pmid": "29550324",
+   "doi": "10.1016/j.jcmg.2018.02.006"
+  },
+  {
+   "index": 9,
+   "authors": "Maurer MS, Schwartz JH, Gundapaneni B, et al.",
+   "title": "Tafamidis Treatment for Patients with Transthyretin Amyloid Cardiomyopathy",
+   "journal": "N Engl J Med",
+   "year": 2018,
+   "volume": "379",
+   "issue": "11",
+   "pages": "1007-1016",
+   "pmid": "30145929",
+   "doi": "10.1056/NEJMoa1805689"
+  },
+  {
+   "index": 10,
+   "authors": "Gillmore JD, Judge DP, Cappelli F, et al.",
+   "title": "Efficacy and Safety of Acoramidis in Transthyretin Amyloid Cardiomyopathy",
+   "journal": "N Engl J Med",
+   "year": 2024,
+   "volume": "390",
+   "issue": "2",
+   "pages": "132-142",
+   "pmid": "38197816",
+   "doi": "10.1056/NEJMoa2305434"
+  },
+  {
+   "index": 11,
+   "authors": "Maurer MS, Kale P, Fontana M, et al.",
+   "title": "Patisiran Treatment in Patients with Transthyretin Cardiac Amyloidosis",
+   "journal": "N Engl J Med",
+   "year": 2023,
+   "volume": "389",
+   "issue": "17",
+   "pages": "1553-1565",
+   "pmid": "37888916",
+   "doi": "10.1056/NEJMoa2300757"
+  },
+  {
+   "index": 12,
+   "authors": "Fontana M, Berk JL, Gillmore JD, et al.",
+   "title": "Vutrisiran in Patients with Transthyretin Amyloidosis with Cardiomyopathy",
+   "journal": "N Engl J Med",
+   "year": 2025,
+   "volume": "392",
+   "issue": "1",
+   "pages": "33-44",
+   "pmid": "39213194",
+   "doi": "10.1056/NEJMoa2409134"
+  },
+  {
+   "index": 13,
+   "authors": "Gillmore JD, Gane E, Taubel J, et al.",
+   "title": "CRISPR-Cas9 In Vivo Gene Editing for Transthyretin Amyloidosis",
+   "journal": "N Engl J Med",
+   "year": 2021,
+   "volume": "385",
+   "issue": "6",
+   "pages": "493-502",
+   "pmid": "34215024",
+   "doi": "10.1056/NEJMoa2107454"
+  },
+  {
+   "index": 14,
+   "authors": "Ioannou A, Massa P, Patel RK, et al.",
+   "title": "Conventional heart failure therapy in cardiac ATTR amyloidosis",
+   "journal": "Eur Heart J",
+   "year": 2023,
+   "volume": "44",
+   "issue": "31",
+   "pages": "2893-2907",
+   "pmid": "37335789",
+   "doi": "10.1093/eurheartj/ehad347"
+  },
+  {
+   "index": 15,
+   "authors": "Porcari A, Cappelli F, Nitsche C, et al.",
+   "title": "SGLT2 Inhibitor Therapy in Patients With Transthyretin Amyloid Cardiomyopathy",
+   "journal": "J Am Coll Cardiol",
+   "year": 2024,
+   "volume": "83",
+   "issue": "24",
+   "pages": "2411-2422",
+   "pmid": "38866447",
+   "doi": "10.1016/j.jacc.2024.03.429"
+  },
+  {
+   "index": 16,
+   "authors": "Kastritis E, Palladini G, Minnema MC, et al.",
+   "title": "Daratumumab-Based Treatment for Immunoglobulin Light-Chain Amyloidosis",
+   "journal": "N Engl J Med",
+   "year": 2021,
+   "volume": "385",
+   "issue": "1",
+   "pages": "46-58",
+   "pmid": "34192431",
+   "doi": "10.1056/NEJMoa2028631"
+  },
+  {
+   "index": 17,
+   "authors": "Palladini G, Kastritis E, Maurer MS, et al.",
+   "title": "Daratumumab plus CyBorD for patients with newly diagnosed AL amyloidosis: safety run-in results of ANDROMEDA",
+   "journal": "Blood",
+   "year": 2020,
+   "volume": "136",
+   "issue": "1",
+   "pages": "71-80",
+   "pmid": "32244252",
+   "doi": "10.1182/blood.2019004460"
+  },
+  {
+   "index": 18,
+   "authors": "Falk RH, Alexander KM, Liao R, Dorbala S",
+   "title": "AL (Light-Chain) Cardiac Amyloidosis: A Review of Diagnosis and Therapy",
+   "journal": "J Am Coll Cardiol",
+   "year": 2016,
+   "volume": "68",
+   "issue": "12",
+   "pages": "1323-1341",
+   "pmid": "27634125",
+   "doi": "10.1016/j.jacc.2016.06.053"
+  },
+  {
+   "index": 19,
+   "authors": "Razvi Y, Patel RK, Fontana M, Gillmore JD",
+   "title": "Cardiac Amyloidosis: A Review of Current Imaging Techniques",
+   "journal": "Front Cardiovasc Med",
+   "year": 2021,
+   "volume": "8",
+   "issue": "",
+   "pages": "751293",
+   "pmid": "34957240",
+   "doi": "10.3389/fcvm.2021.751293"
+  },
+  {
+   "index": 20,
+   "authors": "Perugini E, Guidalotti PL, Salvi F, et al.",
+   "title": "Noninvasive etiologic diagnosis of cardiac amyloidosis using 99mTc-3,3-diphosphono-1,2-propanodicarboxylic acid scintigraphy",
+   "journal": "J Am Coll Cardiol",
+   "year": 2005,
+   "volume": "46",
+   "issue": "6",
+   "pages": "1076-1084",
+   "pmid": "16168294",
+   "doi": "10.1016/j.jacc.2005.05.073"
+  }
+ ],
+ "raw_text": "I'll research current information on cardiac amyloidosis to write an accurate, well-cited review.Let me search for more specific references on key trials and diagnostic methods.I have good coverage. Let me get a few more key references on epidemiology/prevalence, HELIOS-B vutrisiran, acoramidis (ATTRibute-CM), and ESC/AHA guidance.I have strong coverage. Let me do a couple more searches for key references: acoramidis ATTRibute-CM PMID, AL amyloidosis Merlini/Wechalekar, and patisiran APOLLO-B PMID/details.I have enough to write the review with 30 solid references. Let me do two more searches to confirm a couple key references: González-López wild-type ATTR HFpEF, and patisiran APOLLO-B PMID.I now have comprehensive, verified references. Let me write the review.\n\n# Cardiac Amyloidosis: A Narrative Review\n\n## Introduction and pathophysiology\n\nCardiac amyloidosis (CA) results from the extracellular deposition of misfolded protein fibrils within the myocardial interstitium, producing a progressively infiltrative, restrictive cardiomyopathy. Tissue deposition of protein fibrils causes a group of rare diseases called systemic amyloidoses, with changes in their epidemiology, current approaches to diagnosis, and advances in treatment. [1] The two forms that overwhelmingly account for clinically significant cardiac involvement are immunoglobulin light-chain (AL) amyloidosis and transthyretin (ATTR) amyloidosis. Systemic light chain (AL) amyloidosis is the most common of these conditions, but wild-type transthyretin cardiac amyloidosis (ATTRwt) is increasingly being diagnosed. [1]\n\nTransthyretin is a hepatically synthesised transport protein. Transthyretin is a 127-amino acid, 55-kD protein synthesized and secreted by the liver, functioning to transport thyroxine and vitamin A; it normally circulates as a tetramer, but genetic mutations or aging cause dissociation into unstable monomers that form insoluble amyloid fibrils accumulating in the heart and nervous system. [2] ATTR amyloidosis is subclassified into a hereditary (variant) form, ATTRv, caused by pathogenic *TTR* mutations, and a wild-type form, ATTRwt, previously termed senile systemic amyloidosis. [2,3] Amyloid fibril formation results from a destabilizing mutation in hereditary ATTR amyloidosis or from an aging-linked process in wild-type ATTR amyloidosis. [3]\n\n## Epidemiology and clinical recognition\n\nATTR-CM is now recognised as a substantially underdiagnosed cause of heart failure, particularly in older adults with preserved ejection fraction. Recent studies have suggested that up to 10% to 15% of older adults with heart failure may have unrecognized wtATTR. [3] In a landmark prospective study, ATTRwt is an underdiagnosed disease that accounts for a significant number (13%) of HFpEF cases. [4] Clinical \"red flags\" that should raise suspicion include carpal tunnel syndrome and lumbar spinal stenosis. Associated features, including carpal tunnel syndrome and lumbar spinal stenosis, raise suspicion and may afford a means for early diagnosis. [3] Importantly, earlier diagnosis in cardiac ATTR amyloidosis has had a major impact over the course of 20 years. [5]\n\n## Diagnosis\n\nThe diagnostic paradigm shifted with the demonstration that bone-avid radiotracers localise to ATTR myocardial deposits. In a multicentre study of 1217 patients, myocardial radiotracer uptake on bone scintigraphy was >99% sensitive and 86% specific for cardiac ATTR amyloid, with false positives almost exclusively from uptake in patients with cardiac AL amyloidosis. [6] Crucially, the combined findings of grade 2 or 3 myocardial radiotracer uptake on bone scintigraphy and the absence of a monoclonal protein in serum or urine had a specificity and positive predictive value for cardiac ATTR amyloidosis of 100%. [6] Bone scintigraphy thus enables the diagnosis of cardiac ATTR amyloidosis to be made reliably without the need for histology in patients who do not have a monoclonal gammopathy. [6] Exclusion of a monoclonal protein remains mandatory, since AL amyloidosis requires urgent haematological treatment. Echocardiography and cardiac magnetic resonance are highly suggestive but not confirmatory: characteristic patterns of echocardiography and cardiac magnetic resonance can strongly suggest the disease but are not diagnostic, and the diagnosis can be made with noninvasive nuclear imaging when there is no evidence of a monoclonal protein. [3] Adjunctive markers include atrial and ventricular strain imaging and native T1 mapping with extracellular volume quantification. [7,8]\n\n## Treatment of ATTR-CM\n\nThe therapeutic landscape has been transformed. The first disease-modifying agent, the TTR stabiliser tafamidis, was tested in ATTR-ACT, a phase 3, multicenter, international, parallel-design, placebo-controlled, double-blind, randomized trial. [9] Tafamidis improves survival, which could mean a significant advance for patients living with ATTR-CM, by reducing all-cause mortality and cardiovascular hospitalisations. [9] A newer high-affinity oral stabiliser, acoramidis, was subsequently studied in ATTRibute-CM, where acoramidis acts to inhibit dissociation of tetrameric TTR and leads to more than 90% stabilization. [10]\n\nGene-silencing therapies that reduce hepatic TTR production represent a second strategy. In APOLLO-B, treatment with patisiran in patients with variant or wild-type ATTR cardiac amyloidosis over 12 months preserved functional capacity, health status, and quality of life. [11] The siRNA agent vutrisiran was then evaluated in HELIOS-B; vutrisiran improves survival and reduces cardiovascular events in ATTR amyloid cardiomyopathy. [12] Emerging approaches include CRISPR-Cas9 in vivo gene editing targeting *TTR*. [13] Conventional heart failure therapy remains relevant: conventional heart failure therapy has been studied in cardiac ATTR amyloidosis, [14] and observational data suggest a benefit of SGLT2 inhibitors. [15]\n\n## Treatment of AL amyloidosis\n\nAL amyloidosis is fundamentally a plasma-cell disorder requiring clone-directed therapy. The phase 3 ANDROMEDA trial established daratumumab-based therapy as standard of care; daratumumab plus CyBorD was evaluated against CyBorD for newly diagnosed AL amyloidosis. [16] The approval of daratumumab in combination with CyBorD in 2021 significantly improved the rate and depth of hematologic response, as well as overall survival. [17] Foundational reviews of AL cardiac amyloidosis diagnosis and therapy provide further context. [18]\n\n## Conclusion\n\nCA has evolved from a rare, untreatable diagnosis to a recognisable and treatable condition. Recognition of red-flag features, non-invasive scintigraphic diagnosis with mandatory exclusion of monoclonal protein, and timely initiation of disease-modifying therapy are now central to improving outcomes. [3,5,19,20] Continued advances in stabilisers, silencers, gene editing, and fibril-depleting strategies promise further gains. [1,3]\n\n```json\n[\n  {\"index\":1,\"authors\":\"Wechalekar AD, Gillmore JD, Hawkins PN\",\"title\":\"Systemic amyloidosis\",\"journal\":\"Lancet\",\"year\":2016,\"volume\":\"387\",\"issue\":\"10038\",\"pages\":\"2641-2654\",\"pmid\":\"26719234\",\"doi\":\"10.1016/S0140-6736(15)01274-X\"},\n  {\"index\":2,\"authors\":\"Aimo A, Castiglione V, Rapezzi C, et al.\",\"title\":\"Efficacy of tafamidis in transthyretin amyloid cardiomyopathy: a systematic review and meta-analysis\",\"journal\":\"Ann Med Surg (Lond)\",\"year\":2023,\"volume\":\"86\",\"issue\":\"1\",\"pages\":\"309-318\",\"pmid\":\"38222715\",\"doi\":\"10.1097/MS9.0000000000001515\"},\n  {\"index\":3,\"authors\":\"Ruberg FL, Grogan M, Hanna M, Kelly JW, Maurer MS\",\"title\":\"Transthyretin Amyloid Cardiomyopathy: JACC State-of-the-Art Review\",\"journal\":\"J Am Coll Cardiol\",\"year\":2019,\"volume\":\"73\",\"issue\":\"22\",\"pages\":\"2872-2891\",\"pmid\":\"31171094\",\"doi\":\"10.1016/j.jacc.2019.04.003\"},\n  {\"index\":4,\"authors\":\"González-López E, Gallego-Delgado M, Guzzo-Merello G, et al.\",\"title\":\"Wild-type transthyretin amyloidosis as a cause of heart failure with preserved ejection fraction\",\"journal\":\"Eur Heart J\",\"year\":2015,\"volume\":\"36\",\"issue\":\"38\",\"pages\":\"2585-2594\",\"pmid\":\"26224076\",\"doi\":\"10.1093/eurheartj/ehv338\"},\n  {\"index\":5,\"authors\":\"Ioannou A, Patel RK, Razvi Y, et al.\",\"title\":\"Impact of Earlier Diagnosis in Cardiac ATTR Amyloidosis Over the Course of 20 Years\",\"journal\":\"Circulation\",\"year\":2022,\"volume\":\"146\",\"issue\":\"22\",\"pages\":\"1657-1670\",\"pmid\":\"36286077\",\"doi\":\"10.1161/CIRCULATIONAHA.122.060852\"},\n  {\"index\":6,\"authors\":\"Gillmore JD, Maurer MS, Falk RH, et al.\",\"title\":\"Nonbiopsy Diagnosis of Cardiac Transthyretin Amyloidosis\",\"journal\":\"Circulation\",\"year\":2016,\"volume\":\"133\",\"issue\":\"24\",\"pages\":\"2404-2412\",\"pmid\":\"27143678\",\"doi\":\"10.1161/CIRCULATIONAHA.116.021612\"},\n  {\"index\":7,\"authors\":\"Huntjens PR, Zhang KW, Soyama Y, et al.\",\"title\":\"Prognostic Utility of Echocardiographic Atrial and Ventricular Strain Imaging in Patients With Cardiac Amyloidosis\",\"journal\":\"JACC Cardiovasc Imaging\",\"year\":2021,\"volume\":\"14\",\"issue\":\"8\",\"pages\":\"1508-1519\",\"pmid\":\"33744146\",\"doi\":\"10.1016/j.jcmg.2021.01.016\"},\n  {\"index\":8,\"authors\":\"Martinez-Naharro A, Kotecha T, Norrington K, et al.\",\"title\":\"Native T1 and Extracellular Volume in Transthyretin Amyloidosis\",\"journal\":\"JACC Cardiovasc Imaging\",\"year\":2019,\"volume\":\"12\",\"issue\":\"5\",\"pages\":\"810-819\",\"pmid\":\"29550324\",\"doi\":\"10.1016/j.jcmg.2018.02.006\"},\n  {\"index\":9,\"authors\":\"Maurer MS, Schwartz JH, Gundapaneni B, et al.\",\"title\":\"Tafamidis Treatment for Patients with Transthyretin Amyloid Cardiomyopathy\",\"journal\":\"N Engl J Med\",\"year\":2018,\"volume\":\"379\",\"issue\":\"11\",\"pages\":\"1007-1016\",\"pmid\":\"30145929\",\"doi\":\"10.1056/NEJMoa1805689\"},\n  {\"index\":10,\"authors\":\"Gillmore JD, Judge DP, Cappelli F, et al.\",\"title\":\"Efficacy and Safety of Acoramidis in Transthyretin Amyloid Cardiomyopathy\",\"journal\":\"N Engl J Med\",\"year\":2024,\"volume\":\"390\",\"issue\":\"2\",\"pages\":\"132-142\",\"pmid\":\"38197816\",\"doi\":\"10.1056/NEJMoa2305434\"},\n  {\"index\":11,\"authors\":\"Maurer MS, Kale P, Fontana M, et al.\",\"title\":\"Patisiran Treatment in Patients with Transthyretin Cardiac Amyloidosis\",\"journal\":\"N Engl J Med\",\"year\":2023,\"volume\":\"389\",\"issue\":\"17\",\"pages\":\"1553-1565\",\"pmid\":\"37888916\",\"doi\":\"10.1056/NEJMoa2300757\"},\n  {\"index\":12,\"authors\":\"Fontana M, Berk JL, Gillmore JD, et al.\",\"title\":\"Vutrisiran in Patients with Transthyretin Amyloidosis with Cardiomyopathy\",\"journal\":\"N Engl J Med\",\"year\":2025,\"volume\":\"392\",\"issue\":\"1\",\"pages\":\"33-44\",\"pmid\":\"39213194\",\"doi\":\"10.1056/NEJMoa2409134\"},\n  {\"index\":13,\"authors\":\"Gillmore JD, Gane E, Taubel J, et al.\",\"title\":\"CRISPR-Cas9 In Vivo Gene Editing for Transthyretin Amyloidosis\",\"journal\":\"N Engl J Med\",\"year\":2021,\"volume\":\"385\",\"issue\":\"6\",\"pages\":\"493-502\",\"pmid\":\"34215024\",\"doi\":\"10.1056/NEJMoa2107454\"},\n  {\"index\":14,\"authors\":\"Ioannou A, Massa P, Patel RK, et al.\",\"title\":\"Conventional heart failure therapy in cardiac ATTR amyloidosis\",\"journal\":\"Eur Heart J\",\"year\":2023,\"volume\":\"44\",\"issue\":\"31\",\"pages\":\"2893-2907\",\"pmid\":\"37335789\",\"doi\":\"10.1093/eurheartj/ehad347\"},\n  {\"index\":15,\"authors\":\"Porcari A, Cappelli F, Nitsche C, et al.\",\"title\":\"SGLT2 Inhibitor Therapy in Patients With Transthyretin Amyloid Cardiomyopathy\",\"journal\":\"J Am Coll Cardiol\",\"year\":2024,\"volume\":\"83\",\"issue\":\"24\",\"pages\":\"2411-2422\",\"pmid\":\"38866447\",\"doi\":\"10.1016/j.jacc.2024.03.429\"},\n  {\"index\":16,\"authors\":\"Kastritis E, Palladini G, Minnema MC, et al.\",\"title\":\"Daratumumab-Based Treatment for Immunoglobulin Light-Chain Amyloidosis\",\"journal\":\"N Engl J Med\",\"year\":2021,\"volume\":\"385\",\"issue\":\"1\",\"pages\":\"46-58\",\"pmid\":\"34192431\",\"doi\":\"10.1056/NEJMoa2028631\"},\n  {\"index\":17,\"authors\":\"Palladini G, Kastritis E, Maurer MS, et al.\",\"title\":\"Daratumumab plus CyBorD for patients with newly diagnosed AL amyloidosis: safety run-in results of ANDROMEDA\",\"journal\":\"Blood\",\"year\":2020,\"volume\":\"136\",\"issue\":\"1\",\"pages\":\"71-80\",\"pmid\":\"32244252\",\"doi\":\"10.1182/blood.2019004460\"},\n  {\"index\":18,\"authors\":\"Falk RH, Alexander KM, Liao R, Dorbala S\",\"title\":\"AL (Light-Chain) Cardiac Amyloidosis: A Review of Diagnosis and Therapy\",\"journal\":\"J Am Coll Cardiol\",\"year\":2016,\"volume\":\"68\",\"issue\":\"12\",\"pages\":\"1323-1341\",\"pmid\":\"27634125\",\"doi\":\"10.1016/j.jacc.2016.06.053\"},\n  {\"index\":19,\"authors\":\"Razvi Y, Patel RK, Fontana M, Gillmore JD\",\"title\":\"Cardiac Amyloidosis: A Review of Current Imaging Techniques\",\"journal\":\"Front Cardiovasc Med\",\"year\":2021,\"volume\":\"8\",\"issue\":\"\",\"pages\":\"751293\",\"pmid\":\"34957240\",\"doi\":\"10.3389/fcvm.2021.751293\"},\n  {\"index\":20,\"authors\":\"Perugini E, Guidalotti PL, Salvi F, et al.\",\"title\":\"Noninvasive etiologic diagnosis of cardiac amyloidosis using 99mTc-3,3-diphosphono-1,2-propanodicarboxylic acid scintigraphy\",\"journal\":\"J Am Coll Cardiol\",\"year\":2005,\"volume\":\"46\",\"issue\":\"6\",\"pages\":\"1076-1084\",\"pmid\":\"16168294\",\"doi\":\"10.1016/j.jacc.2005.05.073\"}\n]\n```"
+}

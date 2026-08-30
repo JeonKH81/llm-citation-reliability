@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "coronary_slow_flow_phenomenon",
+ "tier": "low",
+ "prompt_topic": "the coronary slow flow phenomenon",
+ "run": 6,
+ "timestamp": "2026-06-18T21:48:58.625178+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 285,
+  "completion_tokens": 1377,
+  "total_tokens": 1662,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1239,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t complete this request as specified without risking fabricated or inaccurate citations.\n\nThe review requires exactly 30 PubMed-indexed peer-reviewed references with precise PMIDs and DOIs, while also prohibiting web browsing or external verification. I do not have sufficiently reliable recall of 30 complete coronary slow flow references—including exact PMID and DOI metadata—to meet medical-journal standards accurately.\n\nIf you allow reference verification with external tools, I can produce the requested 600–900 word narrative review with exactly 30 validated Vancouver-style citations and a correctly formatted JSON reference list."
+}

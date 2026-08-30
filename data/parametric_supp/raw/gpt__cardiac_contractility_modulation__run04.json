@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "cardiac_contractility_modulation",
+ "tier": "low",
+ "prompt_topic": "cardiac contractility modulation therapy for heart failure",
+ "run": 4,
+ "timestamp": "2026-06-18T21:47:31.641067+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 288,
+  "completion_tokens": 2610,
+  "total_tokens": 2898,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2448,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t fulfill this request exactly as stated without risking fabricated or inaccurate bibliographic data. Providing exactly 30 PubMed-indexed references with verified PMIDs and DOIs from memory alone is not reliable, and I should not invent citation metadata.\n\nI can still help in either of these ways:\n\n1. Draft the 600–900 word narrative review with numbered citations and a reference list if you allow PubMed/DOI verification; or  \n2. Draft the review from memory with placeholder references, clearly marked for later verification; or  \n3. Provide a citation-free narrative review on cardiac contractility modulation therapy."
+}

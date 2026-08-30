@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "bioresorbable_scaffold",
+ "tier": "moderate",
+ "prompt_topic": "bioresorbable vascular scaffolds in percutaneous coronary intervention",
+ "run": 8,
+ "timestamp": "2026-06-18T21:58:39.318304+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 292,
+  "completion_tokens": 1704,
+  "total_tokens": 1996,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1536,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t reliably fulfill this request as written without risking fabricated or incorrect bibliographic metadata. In particular, providing exactly 30 PubMed-indexed references with verified PMIDs and DOIs requires reference checking, and you explicitly asked me not to browse or use external tools.\n\nI can still help in either of these ways:\n\n1. Draft the 600–900 word narrative review with numbered citations and a reference list, but without guaranteed PMID/DOI accuracy; or  \n2. Draft the review and leave PMID/DOI fields blank for you or an editor to verify; or  \n3. If you allow external verification, I can produce the full review with a checked JSON reference list in the format requested."
+}

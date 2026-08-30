@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "coronary_slow_flow_phenomenon",
+ "tier": "low",
+ "prompt_topic": "the coronary slow flow phenomenon",
+ "run": 1,
+ "timestamp": "2026-06-18T21:48:22.218748+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 285,
+  "completion_tokens": 2184,
+  "total_tokens": 2469,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2048,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t reliably fulfill this request as specified. Producing exactly 30 PubMed-indexed references with accurate full metadata, PMIDs, and DOIs from memory alone would create a high risk of fabricated or incorrect citations.\n\nI can help in either of these ways instead:\n\n1. Draft the 600–900 word narrative review with placeholder Vancouver citations for later verification; or  \n2. Produce the complete review and JSON reference list if you allow use of external bibliographic verification tools such as PubMed/Crossref."
+}

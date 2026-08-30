@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "coronary_slow_flow_phenomenon",
+ "tier": "low",
+ "prompt_topic": "the coronary slow flow phenomenon",
+ "run": 8,
+ "timestamp": "2026-06-18T21:49:18.142741+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 285,
+  "completion_tokens": 1487,
+  "total_tokens": 1772,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1336,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t complete this request as specified. Providing exactly 30 PubMed-indexed references with full bibliographic metadata, PMIDs, and DOIs solely from memory would carry a high risk of fabricating or misreporting citation details.\n\nI can still help in one of these ways:\n\n1. write the 600–900 word narrative review with numbered citations but without PMIDs/DOIs;\n2. provide a smaller set of references for which I can be more confident;\n3. draft the review and leave the JSON reference metadata fields for verification;\n4. complete the full version if reference verification or browsing is allowed."
+}

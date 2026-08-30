@@ -1,0 +1,74 @@
+[
+ {
+  "code": "R1",
+  "model": "gemini",
+  "topic": "cardiac_contractility_modulation",
+  "run": 1,
+  "stratum": "mid-halluc",
+  "halluc_rate": 0.233
+ },
+ {
+  "code": "R2",
+  "model": "gemini",
+  "topic": "sacubitril_valsartan_ARNI",
+  "run": 1,
+  "stratum": "high-halluc",
+  "halluc_rate": 0.433
+ },
+ {
+  "code": "R3",
+  "model": "gpt",
+  "topic": "bioresorbable_scaffold",
+  "run": 2,
+  "stratum": "high-halluc",
+  "halluc_rate": 0.167
+ },
+ {
+  "code": "R4",
+  "model": "gemini",
+  "topic": "left_atrial_appendage_closure",
+  "run": 3,
+  "stratum": "low-halluc",
+  "halluc_rate": 0.1
+ },
+ {
+  "code": "R5",
+  "model": "claude",
+  "topic": "cardiac_contractility_modulation",
+  "run": 5,
+  "stratum": "mid-halluc",
+  "halluc_rate": 0.267
+ },
+ {
+  "code": "R6",
+  "model": "gpt",
+  "topic": "transcaval_access",
+  "run": 6,
+  "stratum": "mid-halluc",
+  "halluc_rate": 0.067
+ },
+ {
+  "code": "R7",
+  "model": "claude",
+  "topic": "subcutaneous_ICD",
+  "run": 7,
+  "stratum": "low-halluc",
+  "halluc_rate": 0.133
+ },
+ {
+  "code": "R8",
+  "model": "gpt",
+  "topic": "transcaval_access",
+  "run": 7,
+  "stratum": "low-halluc",
+  "halluc_rate": 0.0
+ },
+ {
+  "code": "R9",
+  "model": "claude",
+  "topic": "bioresorbable_scaffold",
+  "run": 9,
+  "stratum": "high-halluc",
+  "halluc_rate": 0.367
+ }
+]

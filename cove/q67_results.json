@@ -1,0 +1,92 @@
+[
+ {
+  "review": "R1",
+  "model": "gemini",
+  "pmid": "35363499",
+  "doi": "10.1161/CIR.0000000000001063",
+  "q6": "not_in_abstract",
+  "q7": "appropriate",
+  "severity": "none",
+  "note": "2022 AHA/ACC/HFSA guideline abstract is high-level and does not mention CCM; the CCM 2b recommendation is in full text, so claim is plausibly true but unverifiable from abstract."
+ },
+ {
+  "review": "R2",
+  "model": "gemini",
+  "pmid": "25176015",
+  "doi": "10.1056/NEJMoa1409077",
+  "q6": "supported",
+  "q7": "appropriate",
+  "severity": "none",
+  "note": "PARADIGM-HF: ARB-neprilysin inhibitor superior to enalapril; HR 0.80 primary, HF hosp -21%. Mechanism+outcome claim faithful."
+ },
+ {
+  "review": "R3",
+  "model": "gpt",
+  "pmid": "23332165",
+  "doi": "10.1016/S0140-6736(12)61765-6",
+  "q6": "supported",
+  "q7": "appropriate",
+  "severity": "none",
+  "note": "BIOSOLVE-I DREAMS: 12-mo TLF 7%, no cardiac death or scaffold thrombosis, 'good safety profile'. 'acceptable 12-month safety' faithful."
+ },
+ {
+  "review": "R4",
+  "model": "gemini",
+  "pmid": "31504441",
+  "doi": "10.1093/europace/euz258",
+  "q6": "unverifiable",
+  "q7": "unverifiable",
+  "severity": "none",
+  "note": "EHRA/EAPCI consensus has NO abstract in PubMed; claim (Class IIb) cannot be checked at abstract level. Honest abstract-limitation case."
+ },
+ {
+  "review": "R5",
+  "model": "claude",
+  "pmid": "21872139",
+  "doi": "10.1016/j.cardfail.2011.05.006",
+  "q6": "contradicted",
+  "q7": "inaccurate",
+  "severity": "HIGH",
+  "note": "CONTENT ERROR in a VERIFIED paper. Claim: 'LVEF between 35% and 45% benefited the most'. Abstract: parent trial enrolled EF <=35%; the responsive subgroup was EF >=25% (i.e. 25-35%). No 35-45% subgroup exists. verify.py passed this (real paper, fields match); only claim-level check catches it."
+ },
+ {
+  "review": "R6",
+  "model": "gpt",
+  "pmid": "27989885",
+  "doi": "10.1016/j.jacc.2016.10.024",
+  "q6": "supported",
+  "q7": "appropriate",
+  "severity": "none",
+  "note": "NHLBI transcaval: 'successful in 99 of 100', '30-day survival 92%', device success without emergency surgical rescue. All figures exact."
+ },
+ {
+  "review": "R7",
+  "model": "claude",
+  "pmid": "36343346",
+  "doi": "10.7326/M22-1566",
+  "q6": "supported",
+  "q7": "appropriate",
+  "severity": "none",
+  "note": "ATLAS: '1 patient (0.4%) S-ICD vs 12 (4.8%) TV-ICD' - verbatim match to abstract."
+ },
+ {
+  "review": "R8",
+  "model": "gpt",
+  "pmid": "35512920",
+  "doi": "10.1016/j.jcin.2022.03.014",
+  "q6": "supported",
+  "q7": "appropriate",
+  "severity": "none",
+  "note": "8-center propensity-weighted: stroke/TIA 5-fold lower transcaval (2.5% vs 13.2%), bleeding comparable, LOS/survival similar. Faithful."
+ },
+ {
+  "review": "R9",
+  "model": "claude",
+  "pmid": "26597771",
+  "doi": "10.1016/S0140-6736(15)00979-4",
+  "q6": "partially_supported",
+  "q7": "minor_discrepancy",
+  "severity": "LOW",
+  "note": "Direction correct (BVS higher thrombosis). But claim counts (2309 BVS / 1382 metallic; rates 1.3% vs 0.5%) differ from THIS abstract (2337 / 1401; reports OR 1.99, not those %). Figures not confirmable from cited abstract; possible source conflation."
+ }
+]

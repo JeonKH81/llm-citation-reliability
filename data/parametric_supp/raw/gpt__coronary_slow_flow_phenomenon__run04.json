@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "coronary_slow_flow_phenomenon",
+ "tier": "low",
+ "prompt_topic": "the coronary slow flow phenomenon",
+ "run": 4,
+ "timestamp": "2026-06-18T21:48:41.263287+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 285,
+  "completion_tokens": 1144,
+  "total_tokens": 1429,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1024,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t responsibly produce a medical-journal review with exactly 30 PubMed-indexed references including verified PMIDs and DOIs while also not browsing or using external tools. I don’t want to fabricate or risk inaccurate citation metadata.\n\nIf you permit reference verification using external sources, I can produce the requested 600–900 word narrative review with exactly 30 fully verified Vancouver-style citations and a JSON reference list. Alternatively, I can draft the review from general knowledge without PMID/DOI metadata."
+}

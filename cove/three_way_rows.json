@@ -1,0 +1,2702 @@
+[
+ {
+  "review": "R1",
+  "index": "1",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the same paper; authors (Savarese/Becher), journal, year(2023), volume 118, pages 3272-3287, DOI all match. First 3 claimed authors Savarese, Becher, Bowrin: Bowrin not among real authors but 'et al.' and first two match core paper; all bibliographic fields correct."
+ },
+ {
+  "review": "R1",
+  "index": "2",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 15753115 correctly resolves to this CARE-HF paper (authors, journal, year, volume 352, pages 1539-49 all match). But claimed DOI 10.1056/NEJMoa050499 is wrong; real DOI is 10.1056/NEJMoa050496."
+ },
+ {
+  "review": "R1",
+  "index": "3",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 17565084 resolves to an unrelated NIH grants paper (misattribution, off by one). Reverse search found the real paper PMID 17565085; authors, JAMA 2007, vol 297, pages 2502-14, DOI 10.1001/jama.297.22.2502 all match."
+ },
+ {
+  "review": "R1",
+  "index": "4",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 15086704 does not resolve. Reverse search found real paper PMID 15089990 (Pappone, First human chronic experience with CCM); authors, journal, year 2004, vol 15, pages 418-27, DOI 10.1046/j.1540-8167.2004.03580.x all match. Only the claimed PMID is wrong."
+ },
+ {
+  "review": "R1",
+  "index": "5",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 18349028 resolves to an unrelated Eur Heart J editorial (misattribution). Real Borggrefe/Lawo/Butter CCM RCT is PMID 18270213: authors, journal Eur Heart J 2008, vol 29, pages 1019-28 match claim; but real title is 'Randomized, double blind study of non-excitatory CCM electrical impulses...' (claimed 'single-crossover study' variant) and real DOI 10.1093/eurheartj/ehn020 (claimed ehn102 wrong)."
+ },
+ {
+  "review": "R1",
+  "index": "6",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the same paper; Tschope/Kherad/Klein, Eur J Heart Fail, year 2018/2019 (published online 2018-11, issue 2019; within ±1 tol), vol 21, pages 14-22, DOI 10.1002/ejhf.1349 all match."
+ },
+ {
+  "review": "R1",
+  "index": "7",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 18450125 resolves to an unrelated antibiotics survey (misattribution). Real paper is PMID 18452785 (Butter, CCM signals improve myocardial gene expression); authors, J Am Coll Cardiol 2008, vol 51, pages 1784-9 match; but real DOI is 10.1016/j.jacc.2008.01.036 (claimed 10.1016/j.jacc.2008.01.045 wrong)."
+ },
+ {
+  "review": "R1",
+  "index": "8",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "hallucinated",
+  "cove_notes": "Claimed PMID 18723766 resolves to an unrelated PI3Kalpha transgenic mouse paper. Claimed DOI 10.1152/ajpheart.00207.2008 does not resolve, citation lookup NOT_FOUND, and no Rastogi CCM dog paper matching the claimed title/AJP-Heart 2008 vol295 H1707 exists (Rastogi's real CCM dog work is JACC 2007 PMID 17531662). No such paper exists -> fabrication."
+ },
+ {
+  "review": "R1",
+  "index": "9",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "hallucinated",
+  "cove_notes": "Claimed PMID 12815574 resolves to an unrelated endothelins paper. Claimed DOI 10.1054/jcaf.2003.32 does not resolve, citation lookup NOT_FOUND. Morita's real CCM dog papers are J Card Fail 2003 9:69-75 (PMID 12612875) and Eur J Heart Fail 2004 (PMID 14984721); no paper matches the claimed title 'moderate heart failure' at J Card Fail 2003 9:236-243 -> fabricated conflated citation."
+ },
+ {
+  "review": "R1",
+  "index": "10",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "hallucinated",
+  "cove_notes": "Claimed PMID 12398822 resolves to an unrelated MI family-history paper. Claimed DOI 10.1053/euhj.2002.3270 does not resolve, citation lookup NOT_FOUND. Hasenfuss/Pieske 2002 real papers are 'Calcium cycling in congestive heart failure' (J Mol Cell Cardiol, PMID 12234765) and a Circulation pyruvate study; no Eur Heart J 2002 vol23 1644-1653 paper with this title exists -> fabrication."
+ },
+ {
+  "review": "R1",
+  "index": "11",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the same paper; Kadish/Nademanee/Volosin, Am Heart J 2011, vol 161, pages 329-337.e1, DOI 10.1016/j.ahj.2010.10.025 all match."
+ },
+ {
+  "review": "R1",
+  "index": "12",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the same paper; Abraham/Nademanee/Volosin, J Card Fail 2011, vol 17, pages 710-7, DOI 10.1016/j.cardfail.2011.05.006 all match."
+ },
+ {
+  "review": "R1",
+  "index": "13",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Abraham/Lindenfeld/Reddy, J Card Fail, year 2014/2015 (online 2014-10, issue 2015; within ±1), vol 21, pages 16-23, DOI 10.1016/j.cardfail.2014.09.011 all match."
+ },
+ {
+  "review": "R1",
+  "index": "14",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper (FIX-HF-5C); Abraham/Kuck/Goldsmith, JACC Heart Fail 2018, vol 6, pages 874-883, DOI 10.1016/j.jchf.2018.04.010 all match."
+ },
+ {
+  "review": "R1",
+  "index": "15",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Wiegn/Chan/Jost, Circ Heart Fail 2020, vol 13, page e006512, DOI 10.1161/CIRCHEARTFAILURE.119.006512 all match."
+ },
+ {
+  "review": "R1",
+  "index": "16",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Anker/Borggrefe/Neuser, Eur J Heart Fail, year 2019 (online 2019-01, issue 2019), vol 21, pages 1103-1113, DOI 10.1002/ejhf.1374 all match."
+ },
+ {
+  "review": "R1",
+  "index": "17",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Linde/Grabowski/Ponikowski, Eur J Heart Fail 2022, vol 24, pages 2275-2284, DOI 10.1002/ejhf.2619 all match."
+ },
+ {
+  "review": "R1",
+  "index": "18",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Tschope/Butler/Farmakis, ESC Heart Fail 2020, vol 7, pages 3531-3535, DOI 10.1002/ehf2.13126 all match."
+ },
+ {
+  "review": "R1",
+  "index": "19",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; McDonagh/Metra/Adamo, Eur Heart J 2021, vol 42, pages 3599-3726, DOI 10.1093/eurheartj/ehab368 all match."
+ },
+ {
+  "review": "R1",
+  "index": "20",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Heidenreich/Bozkurt/Aguilar, Circulation 2022, vol 145, pages e895-e1032, DOI 10.1161/CIR.0000000000001063 all match."
+ },
+ {
+  "review": "R1",
+  "index": "21",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Kuschyk/Falk/Demming, Eur J Heart Fail 2021, vol 23, pages 1160-1169, DOI 10.1002/ejhf.2202 all match."
+ },
+ {
+  "review": "R1",
+  "index": "22",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Giallauria/Cuomo/Parlato, ESC Heart Fail 2020, vol 7, pages 2922-2932, DOI 10.1002/ehf2.12902 all match."
+ },
+ {
+  "review": "R1",
+  "index": "23",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Seferovic/Ponikowski/Anker, Eur J Heart Fail 2019, vol 21, pages 1169-1186, DOI 10.1002/ejhf.1531 all match."
+ },
+ {
+  "review": "R1",
+  "index": "24",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Kuschyk/Kloppe/Schmidt-Schweda, Rev Cardiovasc Med 2017, vol 18, pages 1-13 (claimed pages field is a garbled date-formatted '1-13'), DOI 10.3909/ricm0825 all match."
+ },
+ {
+  "review": "R1",
+  "index": "25",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Yu/Chan/Zhang, JACC Cardiovasc Imaging 2009, vol 2, pages 1341-9, DOI 10.1016/j.jcmg.2009.07.011 all match."
+ },
+ {
+  "review": "R1",
+  "index": "26",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Goliasch/Khorsand/Schutz, Eur J Nucl Med Mol Imaging, year 2011/2012 (online 2011-11, issue 2012; within ±1), vol 39, pages 408-15, DOI 10.1007/s00259-011-1977-8 all match."
+ },
+ {
+  "review": "R1",
+  "index": "27",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Neelagaru/Sanchez/Lau, Heart Rhythm 2006, vol 3, pages 1140-7, DOI 10.1016/j.hrthm.2006.06.031 all match."
+ },
+ {
+  "review": "R1",
+  "index": "28",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 26524707 resolves to an unrelated 'Cluster Syncope' case report (misattribution). Real paper is PMID 26638055 (Tschope, CCM signals improve exercise intolerance... HFpEF); authors, Int J Cardiol 2016 (online 2015), vol 203, pages 1061-6, DOI 10.1016/j.ijcard.2015.10.208 all match. Only claimed PMID wrong."
+ },
+ {
+  "review": "R1",
+  "index": "29",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Kuschyk/Roeger/Schneider, Int J Cardiol 2015, vol 183, pages 76-81, DOI 10.1016/j.ijcard.2014.12.178 all match."
+ },
+ {
+  "review": "R1",
+  "index": "30",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; Borggrefe/Burkhoff, Eur J Heart Fail 2012, vol 14, pages 703-12, DOI 10.1093/eurjhf/hfs078 all match."
+ },
+ {
+  "review": "R2",
+  "index": "1",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the Bozkurt review; authors, journal (JACC Basic Transl Sci), year 2022, vol 8, pages 88-105, DOI all match."
+ },
+ {
+  "review": "R2",
+  "index": "2",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the correct McMurray PARADIGM-HF baseline paper; Eur J Heart Fail 2014, vol 16, 817-25, DOI 10.1002/ejhf.115 all match."
+ },
+ {
+  "review": "R2",
+  "index": "3",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PARADIGM-HF primary paper; McMurray, NEJM 2014, vol 371, 993-1004, DOI 10.1056/NEJMoa1409077 all match."
+ },
+ {
+  "review": "R2",
+  "index": "4",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Packer, Circulation vol 131, 54-61, DOI matches; pubdate 2014-11 but vol 131 = Jan 2015, year within tolerance."
+ },
+ {
+  "review": "R2",
+  "index": "5",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Jhund, Eur Heart J 2015, vol 36, 2576-84, DOI 10.1093/eurheartj/ehv330 all match."
+ },
+ {
+  "review": "R2",
+  "index": "6",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Desai, Eur Heart J 2015, vol 36, 1990-7, DOI 10.1093/eurheartj/ehv186 all match."
+ },
+ {
+  "review": "R2",
+  "index": "7",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 28330752 resolves to an unrelated virology paper (misattribution). Reverse search found the real Seferovic paper (PMID 28330649); its journal, year, vol 5, pages 333-340 and DOI match the claim."
+ },
+ {
+  "review": "R2",
+  "index": "8",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lewis, Circ Heart Fail 2017, vol 10, e003430, DOI 10.1161/CIRCHEARTFAILURE.116.003430 all match."
+ },
+ {
+  "review": "R2",
+  "index": "9",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID is correct paper, but real first author is Chandra A (claim lists Lewis EF first), and real pages are 498-505 (claim says 505-513)."
+ },
+ {
+  "review": "R2",
+  "index": "10",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 29853125 resolves to an unrelated materials-science paper (misattribution). Real Damman renal paper is PMID 29655829; JACC Heart Fail vol 6, 489-498, DOI all match claim."
+ },
+ {
+  "review": "R2",
+  "index": "11",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 27150798 resolves to an unrelated implementation-science paper. Real Senni TITRATION paper is PMID 27170530; Eur J Heart Fail vol 18, 1193-202, DOI 10.1002/ejhf.548 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "12",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 31131974 resolves to an unrelated hepatology paper. Real Wachter TRANSITION paper is PMID 31134724; Eur J Heart Fail vol 21, 998-1007, DOI 10.1002/ejhf.1498 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "13",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Velazquez PIONEER-HF, NEJM vol 380, 539-548, DOI 10.1056/NEJMoa1812851 all match."
+ },
+ {
+  "review": "R2",
+  "index": "14",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Januzzi, JAMA 2019, vol 322, 1085-1095, DOI 10.1001/jama.2019.12821 all match."
+ },
+ {
+  "review": "R2",
+  "index": "15",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Desai, JAMA 2019, vol 322, 1077-1084, DOI 10.1001/jama.2019.12843 all match."
+ },
+ {
+  "review": "R2",
+  "index": "16",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Kang, Circulation 2019, vol 139, 1354-1365, DOI 10.1161/CIRCULATIONAHA.118.037077 all match."
+ },
+ {
+  "review": "R2",
+  "index": "17",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 34730762 resolves to an unrelated nursing paper. Real Mann LIFE paper is PMID 34730769; JAMA Cardiol vol 7, 17-25, DOI 10.1001/jamacardio.2021.4567 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "18",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 31475211 resolves to an unrelated cardiac surgery paper. Real Solomon PARAGON-HF paper is PMID 31475794; NEJM vol 381, 1609-1620, DOI 10.1056/NEJMoa1908655 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "19",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 31735077 resolves to an unrelated cartilage/lncRNA paper. Real McMurray women-vs-men PARAGON paper is PMID 31736337; Circulation vol 141, 338-351, DOI 10.1161/CIRCULATIONAHA.119.044491 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "20",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 31735078 resolves to an unrelated Impella paper. Real Solomon 'across the spectrum of EF' paper is PMID 31736342; Circulation vol 141, 352-361, DOI 10.1161/CIRCULATIONAHA.119.044586 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "21",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Mentz PARAGLIDE-HF, J Am Coll Cardiol vol 82, pages 1-12, DOI 10.1016/j.jacc.2023.04.019 all match (claimed pages field was Korean-corrupted '1-12')."
+ },
+ {
+  "review": "R2",
+  "index": "22",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 34784037 resolves to an unrelated vaccinology methods chapter. Real Pieske PARALLAX paper is PMID 34783839; JAMA vol 326, 1919-1929, DOI 10.1001/jama.2021.18463 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "23",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Kommu & Berg, J Clin Med 2024, vol 13 issue 6, article 1572, DOI 10.3390/jcm13061572 all match."
+ },
+ {
+  "review": "R2",
+  "index": "24",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 30354655 resolves to the 2017 hypertension guideline (misattribution). Real UK HARP-III paper is PMID 30002098; Circulation vol 138, 1505-1514, DOI 10.1161/CIRCULATIONAHA.118.034818 match claim (group-authored, first named author Haynes R)."
+ },
+ {
+  "review": "R2",
+  "index": "25",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Dewan, Circulation 2024, vol 150, 272-282, DOI 10.1161/CIRCULATIONAHA.124.068774 all match."
+ },
+ {
+  "review": "R2",
+  "index": "26",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 34759140 resolves to an unrelated surgical-infection paper. Real Pfeffer PARADISE-MI paper is PMID 34758252; NEJM vol 385, 1845-1855, DOI 10.1056/NEJMoa2104508 match claim."
+ },
+ {
+  "review": "R2",
+  "index": "27",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Gao, Front Pharmacol 2023, vol 14, article 1237210, DOI 10.3389/fphar.2023.1237210 all match."
+ },
+ {
+  "review": "R2",
+  "index": "28",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Shaddy, Circulation 2024, vol 150, 1756-1766, DOI 10.1161/CIRCULATIONAHA.123.066605 all match."
+ },
+ {
+  "review": "R2",
+  "index": "29",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "McDonagh, Eur Heart J 2021, vol 42, 3599-3726, DOI 10.1093/eurheartj/ehab368 all match."
+ },
+ {
+  "review": "R2",
+  "index": "30",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 35363386 resolves to an unrelated dermatology paper. Real Heidenreich 2022 AHA/ACC/HFSA HF guideline is PMID 35363499; Circulation vol 145, e895-e1032, DOI 10.1161/CIR.0000000000001063 match claim."
+ },
+ {
+  "review": "R3",
+  "index": "1",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the same paper; authors, journal, year, volume, pages, DOI all match."
+ },
+ {
+  "review": "R3",
+  "index": "2",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves correctly; all fields match (real first-3 authors Serruys, Ormiston, Onuma matches claim)."
+ },
+ {
+  "review": "R3",
+  "index": "3",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves to same paper; JACC 58:1578-88, 2011, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "4",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Circ Cardiovasc Interv 5:620-32, 2012, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "5",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; JACC 67:766-76, 2016, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "6",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Am Heart J 164:654-63, 2012, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "7",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Lancet 385:43-54, DOI match. Real pub 2014 vs claimed 2015 within +/-1 tolerance (Epub 2014, print Jan 2015)."
+ },
+ {
+  "review": "R3",
+  "index": "8",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Lancet 388:2479-2491, 2016, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "9",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; NEJM 373:1905-15, 2015, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "10",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; JACC 70:2852-2862, 2017, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "11",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Lancet 392:1530-1540, 2018, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "12",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; JACC 82:183-195, 2023, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "13",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 26330489 resolves to an unrelated mouse physiology paper. Real ABSORB Japan paper is PMID 26330419 (Kimura, Eur Heart J 36:3332-42, 2015); all other fields match."
+ },
+ {
+  "review": "R3",
+  "index": "14",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 26457557 resolves to an unrelated ZnO sensor paper. Real ABSORB China paper is PMID 26471805 (Gao, JACC 66:2298-2309, 2015); all other fields match."
+ },
+ {
+  "review": "R3",
+  "index": "15",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 25599616 resolves to an unrelated pharmacology paper. Real ABSORB EXTEND paper is PMID 24769555 (Abizaid, EuroIntervention 10:1396-401); all other fields match."
+ },
+ {
+  "review": "R3",
+  "index": "16",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 26405233 resolves to an unrelated bone-marrow-cell AMI trial. Real TROFI II paper is PMID 26405232 (Sabate, Eur Heart J 37:229-40); all other fields match."
+ },
+ {
+  "review": "R3",
+  "index": "17",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; NEJM 376:2319-2328, 2017, authors Wykrzykowska/Kraak/Hofma, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "18",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 26916484 resolves to an unrelated CYP2C19 editorial. Real Puricel scaffold-thrombosis paper is PMID 26916481 (JACC 67:921-931); all other fields match."
+ },
+ {
+  "review": "R3",
+  "index": "19",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; JACC 70:2863-2874, 2017, authors Stone/Abizaid/Onuma, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "20",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; JACC Cardiovasc Interv 10:2349-2359, 2017, authors Bangalore/Bezerra/Rizik, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "21",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; JACC 69:3055-3066, 2017, authors Sorrentino/Giustino/Mehran, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "22",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Circ Cardiovasc Interv 10 (e005286), 2017, authors Mahmoud/Barakat/Elgendy, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "23",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; EuroIntervention 13:1565-1573, 2018, authors Cassese/Byrne/Juni, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "24",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; JACC Cardiovasc Interv 18:1-11, 2025, authors Power/Camaj/Kereiakes, DOI match. Claimed pages field was an encoding artifact ('1-11')."
+ },
+ {
+  "review": "R3",
+  "index": "25",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Lancet 369:1869-1875, 2007, authors Erbel/Di Mario/Bartunek, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "26",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Lancet 381:836-44, 2013, authors Haude/Erbel/Erne, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "27",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Lancet 387:31-9, authors Haude/Ince/Abizaid, DOI match. Real pub 2015 vs claimed 2016 within +/-1 tolerance."
+ },
+ {
+  "review": "R3",
+  "index": "28",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Int J Cardiol 255:22-28, authors Garcia-Garcia/Haude/Kuku, DOI match. Real pub 2017 vs claimed 2018 within +/-1 tolerance."
+ },
+ {
+  "review": "R3",
+  "index": "29",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; Circulation 140:1904-1916, 2019, authors Sabate/Alfonso/Cequier, DOI match."
+ },
+ {
+  "review": "R3",
+  "index": "30",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves correctly; EuroIntervention 18:e389-e396, 2022, authors Ortega-Paz/Brugaletta/Gomez-Lara, DOI match."
+ },
+ {
+  "review": "R4",
+  "index": "1",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; authors, journal, year, volume(61), pages(755-9), DOI all match."
+ },
+ {
+  "review": "R4",
+  "index": "2",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Hart/Pearce/Aguilar, Ann Intern Med 2007;146:857-67, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "3",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Connolly/Ezekowitz/Yusuf, NEJM 2009;361:1139-51, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "4",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Granger/Alexander/McMurray, NEJM 2011;365:981-92, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "5",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Holmes/Reddy/Turi, Lancet 2009;374:534-42, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "6",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All match: Holmes/Kar/Price, JACC 2014;64:1-12, DOI matches. Claimed pages field was Excel-corrupted ('1월 12일') but true pages 1-12 are correct."
+ },
+ {
+  "review": "R4",
+  "index": "7",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Reddy/Sievert/Halperin, JAMA 2014;312:1988-98, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "8",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Reddy/Doshi/Kar, JACC 2017;70:2964-2975, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "9",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Boersma/Schmidt/Betts, Eur Heart J 2016;37:2465-74, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "10",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Freeman/Varosy/Price, JACC 2020;75:1503-1518, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "11",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Tzikas/Shakir/Gafoor, EuroIntervention 2016;11:1170-9, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "12",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lakkireddy/Thaler/Ellis, Circulation 2021;144:1543-1552, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "13",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lakkireddy/Thaler/Ellis, JACC Cardiovasc Interv 2023;16:1902-1913, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "14",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Kar/Doshi/Sadhu, Circulation 2021;143:1754-1762, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "15",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 29122579 resolves to a DIFFERENT paper (J Mol Cell Cardiol editorial). Reverse search found the real LAmbre paper at PMID 29122133; all other fields (Huang/Liu/Xu, JACC Cardiovasc Interv 2017;10:2188-2194, DOI) match. PMID misattribution."
+ },
+ {
+  "review": "R4",
+  "index": "16",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "PMID resolves to same paper; authors, journal, vol(62), pages(108-118), DOI match. Claimed year 2013 but real publication year is 2012 (>1yr off)."
+ },
+ {
+  "review": "R4",
+  "index": "17",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lakkireddy/Afzal/Lee, Heart Rhythm 2016;13:1030-1036, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "18",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Osmancik/Herman/Neuzil, JACC 2020;75:3122-3135, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "19",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "PMID resolves to same paper; authors, journal, vol(79), DOI match; true pages 1-14 (claimed field Excel-corrupted to '1월 14일' but correct). Claimed year 2022 but real year is 2021 (>1yr off)."
+ },
+ {
+  "review": "R4",
+  "index": "20",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves to same paper; authors, journal(Europace), vol(22), pages(184), DOI match. Claimed year 2020 vs real 2019 within +/-1 tolerance."
+ },
+ {
+  "review": "R4",
+  "index": "21",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Hindricks/Potpara/Dagres, Eur Heart J 2021;42:373-498, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "22",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 30689436 resolves to an unrelated rabbit-cerebral-hemorrhage paper. Reverse search found the real 2019 AHA/ACC/HRS AF guideline at PMID 30686041; authors(January/Wann/Calkins), Circulation 2019;140:e125-e151, DOI all match. PMID misattribution."
+ },
+ {
+  "review": "R4",
+  "index": "23",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Dukkipati/Kar/Holmes, Circulation 2018;138:874-885, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "24",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Alkhouli/De Backer/Ellis, JACC Cardiovasc Interv 2023;16:627-642, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "25",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Dukkipati/Holmes/Doshi, JACC 2022;80:469-483, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "26",
+  "model": "gemini",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 29622156 resolves to an unrelated HF/cancer editorial. Reverse search found the real Fauchier device-thrombosis paper at PMID 29622159; authors(Fauchier/Cinaud/Brigadeau), JACC 2018;71:1528-1536, DOI all match. PMID misattribution."
+ },
+ {
+  "review": "R4",
+  "index": "27",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Ferro/Alkhouli/Nair, JACC Clin Electrophysiol 2023;9:2587-2599, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "28",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID resolves to same paper; authors, journal, vol(13), pages(277-292), DOI match. Claimed year 2020 vs real 2019 within +/-1 tolerance."
+ },
+ {
+  "review": "R4",
+  "index": "29",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Whitlock/Belley-Cote/Paparella, NEJM 2021;384:2081-2091, DOI matches."
+ },
+ {
+  "review": "R4",
+  "index": "30",
+  "model": "gemini",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Alkhouli/Alarouri/Kramer, JACC Cardiovasc Interv 2023;16:2695-2707, DOI matches."
+ },
+ {
+  "review": "R5",
+  "index": "1",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the same paper; authors, journal, year, volume, pages, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "2",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Match. Real year 2018 vs claimed 2019 within +/-1 tolerance; all other fields match."
+ },
+ {
+  "review": "R5",
+  "index": "3",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Abi-Samra/Gutterman, Heart Fail Rev 2016, vol 21, 645-660, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "4",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 32268807 is a different (PROMISE imaging) paper; reverse search found the real FIX-HF-5C2 paper (PMID 32264716). All other fields match."
+ },
+ {
+  "review": "R5",
+  "index": "5",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Duplicate of ref 2. Match; real year 2018 vs claimed 2019 within tolerance."
+ },
+ {
+  "review": "R5",
+  "index": "6",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Imai/Rastogi/Gupta, JACC 2007, vol 49, 2120-8, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "7",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Butter/Wellnhofer/Schlegl, J Card Fail 2007, vol 13, 137-42, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "8",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Borggrefe/Lawo/Butter, Eur Heart J 2008, vol 29, 1019-28, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "9",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Kadish/Nademanee/Volosin, Am Heart J 2011, vol 161, 329-337, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "10",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Abraham/Burkhoff/Nademanee, Am Heart J 2008, vol 156, 641-648, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "11",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 30098964 is a different (antihyperglycemic) paper; reverse search found the real Abraham CCM RCT (PMID 29754812). Authors, journal, year, vol, pages, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "12",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Abraham/Nademanee/Volosin, J Card Fail 2011, vol 17, 710-7, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "13",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Duplicate of ref 11. Claimed PMID 30098964 misattributed; real paper is PMID 29754812. All other fields match."
+ },
+ {
+  "review": "R5",
+  "index": "14",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Duplicate of ref 4. Claimed PMID 32268807 misattributed; real FIX-HF-5C2 paper is PMID 32264716. All other fields match."
+ },
+ {
+  "review": "R5",
+  "index": "15",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Giallauria/Cuomo/Parlato, ESC Heart Fail 2020, vol 7, 2922-2932, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "16",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Kuschyk/Falk/Demming, Eur J Heart Fail 2021, vol 23, 1160-1169, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "17",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Pocock/Ariti/McMurray, Eur Heart J, vol 34, 1404-13, DOI match; real year 2012 vs claimed 2013 within tolerance."
+ },
+ {
+  "review": "R5",
+  "index": "18",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 31063261 is a different (chemotherapy neuropathy) paper; reverse search found the real Anker CCM survival paper (PMID 30652394). Authors, journal, year, vol, pages, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "19",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Kuschyk/Roeger/Schneider, Int J Cardiol 2015, vol 183, 76-81, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "20",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Neelagaru/Sanchez/Lau, Heart Rhythm 2006, vol 3, 1140-7, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "21",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Muller/Remppis/Schauerte, Clin Res Cardiol 2017, vol 106, 893-904, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "22",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Tschoepe/Van Linthout/Spillmann, Int J Cardiol, vol 203, 1061-6, DOI match; real year 2015 vs claimed 2016 within tolerance."
+ },
+ {
+  "review": "R5",
+  "index": "23",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Linde/Grabowski/Ponikowski, Eur J Heart Fail 2022, vol 24, 2275-2284, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "24",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 39299597 is an unrelated bipolar-disorder paper. Real Fastner CCM paper is PMID 39306264: real DOI .09.038 (not .09.022), real pages 1756-1762 (not 406-414), 3rd author Rao not Yuecel. Title and journal match."
+ },
+ {
+  "review": "R5",
+  "index": "25",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 22678740 is an unrelated BMJ case report; reverse search found the real Borggrefe/Burkhoff CCM review (PMID 22696514). Authors, journal, year, vol, pages, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "26",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Giallauria/Vigorito/Piepoli/Stewart Coats, Int J Cardiol 2014, vol 175, 352-7, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "27",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "hallucinated",
+  "cove_notes": "Claimed PMID 39131073 resolves to a different neuromodulation review (Pahuja). Claimed DOI .101206 resolves to yet another paper (Nguyen, Medical Management and Device-Based Therapies). No PubMed record matches the claimed title/authors (Mando, Goel, Habash); title+author reverse search returns zero results. Fabricated citation."
+ },
+ {
+  "review": "R5",
+  "index": "28",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors Heidenreich/Bozkurt/Aguilar, Circulation 2022, vol 145, e895-e1032, DOI all match."
+ },
+ {
+  "review": "R5",
+  "index": "29",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Duplicate of ref 1. All fields match."
+ },
+ {
+  "review": "R5",
+  "index": "30",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Authors McDonagh/Metra/Adamo, Eur Heart J 2021, vol 42, 3599-3726, DOI all match."
+ },
+ {
+  "review": "R6",
+  "index": "1",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to identical paper; authors (Halabi,Ratnayaka,Faranesh), JACC 2013;61:1745-6, DOI all match."
+ },
+ {
+  "review": "R6",
+  "index": "2",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Greenbaum,O'Neill,Paone; JACC 2014;63:2795-804; DOI 10.1016/j.jacc.2014.04.015."
+ },
+ {
+  "review": "R6",
+  "index": "3",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lederman,Chen,Rogers; JACC Cardiovasc Imaging 2014;7:1167-71; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "4",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Paper correct (authors,journal,year,vol,DOI match); claimed_pages '1월 10일' is a garbled/corrupted rendering of real pages 1-10."
+ },
+ {
+  "review": "R6",
+  "index": "5",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Greenbaum,Babaliaros,Chen; JACC 2017(pub 2016);69:511-521; DOI matches (year within tolerance)."
+ },
+ {
+  "review": "R6",
+  "index": "6",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lederman,Babaliaros,Rogers; JACC Cardiovasc Interv 2019;12:448-456; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "7",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Costa,De Backer,Pilgrim; EuroIntervention 2020;15:e1319-e1324; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "8",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Barbash,Segev,Berkovitch; Front Cardiovasc Med 2021;8:731639; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "9",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lederman,Babaliaros,Lisko; JACC Cardiovasc Interv 2022;15:965-975; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "10",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Rogers,Greenbaum,Babaliaros; JACC Cardiovasc Interv 2019;12:2198-2206; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "11",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lederman,Greenbaum,Khan; JACC Cardiovasc Interv 2023;16:371-395; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "12",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Khan,Rogers,Greenbaum; JACC 2020;75:1455-1470; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "13",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Uflacker,Lim,Ragosta; J Vasc Interv Radiol 2015;26:1437-41; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "14",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Lederman,O'Neill,Greenbaum; Catheter Cardiovasc Interv 2015;85:1270-3; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "15",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Sherwood,Allen,Dahle; 2025;4:102514; DOI matches. Claimed 'JSCAI' is informal short form of real abbrev J Soc Cardiovasc Angiogr Interv."
+ },
+ {
+  "review": "R6",
+  "index": "16",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Kappetein,Head,Genereux; JACC 2012;60:1438-54; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "17",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Leon,Smith,Mack; N Engl J Med 2010;363:1597-607; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "18",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Smith,Leon,Mack; N Engl J Med 2011;364:2187-98; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "19",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Adams,Popma,Reardon; N Engl J Med 2014;370:1790-8; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "20",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Leon,Smith,Mack; N Engl J Med 2016;374:1609-20; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "21",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Reardon,Van Mieghem,Popma; N Engl J Med 2017;376:1321-1331; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "22",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Mack,Leon,Thourani; N Engl J Med 2019;380:1695-1705; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "23",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Popma,Deeb,Yakubov; N Engl J Med 2019;380:1706-1715; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "24",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Otto,Nishimura,Bonow; Circulation 2021;143:e72-e227; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "25",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Vahanian,Beyersdorf,Praz; Eur Heart J 2022;43:561-632; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "26",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Genereux,Webb,Svensson; JACC 2012;60:1043-52; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "27",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Mack,Brennan,Brindis; JAMA 2013;310:2069-77; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "28",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Grover,Vemulapalli,Carroll; JACC vol 69, 1215-1230; DOI matches. Real pub year 2016 vs claimed 2017 within +-1 tolerance."
+ },
+ {
+  "review": "R6",
+  "index": "29",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match: Carroll,Mack,Vemulapalli; JACC 2020;76:2492-2516; DOI matches."
+ },
+ {
+  "review": "R6",
+  "index": "30",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID/DOI resolve to a real paper with matching title/journal/year/volume, but it is a Letter by De Backer,Quagliana,Vanhaverbeke on pages 1683-1685 - NOT the claimed authors (Allen,Chhatriwalla,Cohen) nor pages 1615-1628. Reverse search of Allen's TAVR access paper returns a different title/journal (transcarotid, J Thorac Cardiovasc Surg, PMID 33229170). Misattribution."
+ },
+ {
+  "review": "R7",
+  "index": "1",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to same paper; authors, journal, year, volume, pages, DOI all match."
+ },
+ {
+  "review": "R7",
+  "index": "2",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match (MADIT-II)."
+ },
+ {
+  "review": "R7",
+  "index": "3",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match (SCD-HeFT)."
+ },
+ {
+  "review": "R7",
+  "index": "4",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 29748178 points to a different Brugada paper; real paper is PMID 29748177 (off by one). Authors, journal, year, DOI otherwise match."
+ },
+ {
+  "review": "R7",
+  "index": "5",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "PMID/title/authors/journal/year/vol/pages match, but real DOI is 10.1016/j.hrthm.2011.04.014 vs claimed ...2011.05.014."
+ },
+ {
+  "review": "R7",
+  "index": "6",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "7",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match (Bardy 2010 S-ICD)."
+ },
+ {
+  "review": "R7",
+  "index": "8",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "hallucinated",
+  "cove_notes": "Claimed PMID 20860519 does not resolve; DOI 10.1056/NEJMc1008499 returns no PubMed record; no Tereshchenko S-ICD correspondence found by reverse search. NEJM 363:1286 slot is a pancreatitis letter. No such citation exists in PubMed."
+ },
+ {
+  "review": "R7",
+  "index": "9",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "10",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "11",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "12",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "13",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "14",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "15",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match (PRAETORIAN primary results)."
+ },
+ {
+  "review": "R7",
+  "index": "16",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "PMID/title/journal/year/vol/pages/DOI match, but real 3rd author is Delnoy, not Mulder as claimed (Knops, Pepplinkhuizen, Delnoy...)."
+ },
+ {
+  "review": "R7",
+  "index": "17",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 40679067 is an unrelated Bioethics article. Real PRAETORIAN-XL paper is PMID 40279654; first author is Olde Nordkamp (not Pepplinkhuizen), pages 172-182 (claimed empty). DOI/journal/year/vol match."
+ },
+ {
+  "review": "R7",
+  "index": "18",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match (ATLAS main)."
+ },
+ {
+  "review": "R7",
+  "index": "19",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "20",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 38591770 is an unrelated pathology article. Real ATLAS QoL paper is PMID 38695087; authors, journal, year, vol, pages, DOI all match."
+ },
+ {
+  "review": "R7",
+  "index": "21",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 35624081 is an unrelated RAAS/COVID article. Real Fong meta-analysis is PMID 35656975; authors, journal, year, vol, pages, DOI all match."
+ },
+ {
+  "review": "R7",
+  "index": "22",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "23",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "PMID/title/authors/journal/year/vol/pages match, but real DOI is 10.1161/CIR.0000000000000548 vs claimed ...000549."
+ },
+ {
+  "review": "R7",
+  "index": "24",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "25",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "26",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "27",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match (MADIT-RIT)."
+ },
+ {
+  "review": "R7",
+  "index": "28",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match."
+ },
+ {
+  "review": "R7",
+  "index": "29",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 31202100 is an unrelated biomechanics article. Real PRAETORIAN-DFT design paper is PMID 31220775; authors, journal, year, vol, pages, DOI all match."
+ },
+ {
+  "review": "R7",
+  "index": "30",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "All fields match (EV-ICD pivotal)."
+ },
+ {
+  "review": "R8",
+  "index": "1",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Claimed PMID resolves to the same paper (Cribier, Circulation 2002;106:3006-8); all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "2",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PARTNER B (Leon, NEJM 2010;363:1597-607); all fields incl DOI match."
+ },
+ {
+  "review": "R8",
+  "index": "3",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PARTNER A (Smith, NEJM 2011;364:2187-98); all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "4",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "CoreValve US Pivotal (Adams, NEJM 2014;370:1790-8); all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "5",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Mack, Lancet 2015;385:2477-84; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "6",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PARTNER 2 (Leon, NEJM 2016;374:1609-20); all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "7",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PARTNER 3 (Mack, NEJM 2019;380:1695-1705); all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "8",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Evolut Low Risk (Popma, NEJM 2019;380:1706-1715); all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "9",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Greenbaum, JACC 2014;63:2795-804; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "10",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lederman, JACC Cardiovasc Imaging 2014;7:1167-71; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "11",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lederman/O'Neill/Greenbaum, Catheter Cardiovasc Interv 2015;85:1270-3; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "12",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lederman/Babaliaros/Greenbaum, Catheter Cardiovasc Interv 2015;86:1242-54; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "13",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Greenbaum/Babaliaros/Chen, JACC 2017;69:511-521; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "14",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lederman/Greenbaum/Rogers, JACC Cardiovasc Interv 2017;10:1-10; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "15",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Singh, Circ Cardiovasc Interv 2014;7:723-5; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "16",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Fanari, Cardiovasc Revasc Med 2017;18:604-606; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "17",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Wee/Syn/Choong, J Cardiol 2018;72:369-376; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "18",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lederman/Babaliaros/Rogers, JACC Cardiovasc Interv 2019;12:448-456; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "19",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Rogers/Greenbaum/Babaliaros, JACC Cardiovasc Interv 2019;12:2198-2206; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "20",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lederman/Babaliaros/Lisko, JACC Cardiovasc Interv 2022;15:965-975; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "21",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Van Mieghem/Tijssen editorial, JACC Cardiovasc Interv 2022;15:976-978; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "22",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Long/Mahoney, J Invasive Cardiol 2020;32:463-469; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "23",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Barbash, Front Cardiovasc Med 2021;8:731639; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "24",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Salihu/Ferlay/Kirsch, Can J Cardiol 2024;40:2054-2062; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "25",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Abraham/Sous/Kaldas, Int J Cardiol 2025;419:132720 (epub 2024); all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "26",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Lederman/Greenbaum/Khan, JACC Cardiovasc Interv 2023;16:371-395; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "27",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Mohammed/Al-Darzi/Jabri, J Soc Cardiovasc Angiogr Interv 2025;4:103789; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "28",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Doyle/Casserly, EuroIntervention 2025;21:e709-e710; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "29",
+  "model": "gpt",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Sherwood/Allen/Dahle, J Soc Cardiovasc Angiogr Interv 2025;4:102514; all fields match."
+ },
+ {
+  "review": "R8",
+  "index": "30",
+  "model": "gpt",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 34016482 resolves to an unrelated cirrhotic cardiomyopathy paper (misattribution). Real VARC-3 paper is PMID 33888385 (Genereux, JACC 2021;77:2717-2746); claimed DOI/journal/year/vol/pages/authors all match the real paper, only the PMID is wrong."
+ },
+ {
+  "review": "R9",
+  "index": "1",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 24694928 resolves to an unrelated HIV pharmacology paper (misattribution). Reverse search finds the real GHOST-EU paper (PMID 25042421); title, authors, journal, year, vol/pages 1144-53, DOI all match."
+ },
+ {
+  "review": "R9",
+  "index": "2",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 26457558 matches claim exactly: Ellis/Kereiakes/Metzger, NEJM 2015;373:1905-15, DOI 10.1056/NEJMoa1509038."
+ },
+ {
+  "review": "R9",
+  "index": "3",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID '22197label' is garbled/invalid and does not resolve. Reverse search finds the real ABSORB 4-year paper (PMID 21959320); Dudek/Onuma/Ormiston, EuroIntervention 2012;7:1060-1, DOI all match."
+ },
+ {
+  "review": "R9",
+  "index": "4",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 18342684 matches: Ormiston/Serruys/Regar, Lancet 2008;371:899-907, DOI 10.1016/S0140-6736(08)60415-8."
+ },
+ {
+  "review": "R9",
+  "index": "5",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 19286089 matches: Serruys/Ormiston/Onuma, Lancet 2009;373:897-910, DOI 10.1016/S0140-6736(09)60325-1."
+ },
+ {
+  "review": "R9",
+  "index": "6",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 25230593 matches: Serruys/Chevalier/Dudek, Lancet 2015;385:43-54 (PubMed pubdate 2014 within tolerance), DOI 10.1016/S0140-6736(14)61455-0."
+ },
+ {
+  "review": "R9",
+  "index": "7",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 26471805 matches: Gao/Yang/Han, JACC 2015;66:2298-2309, DOI 10.1016/j.jacc.2015.09.054."
+ },
+ {
+  "review": "R9",
+  "index": "8",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 26330417 resolves to an unrelated FFRCT paper (off by 2). Real ABSORB Japan paper is PMID 26330419; Kimura/Kozuma/Tanabe, Eur Heart J 2015;36:3332-42, DOI 10.1093/eurheartj/ehv435 all match."
+ },
+ {
+  "review": "R9",
+  "index": "9",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "Duplicate of index 2. PMID 26457558 matches exactly."
+ },
+ {
+  "review": "R9",
+  "index": "10",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 26825231 matches: Stone/Gao/Kimura, Lancet 2016;387:1277-89, DOI 10.1016/S0140-6736(15)01039-9."
+ },
+ {
+  "review": "R9",
+  "index": "11",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 31553222 matches: Kereiakes/Ellis/Metzger, Circulation 2019;140:1895-1903, DOI 10.1161/CIRCULATIONAHA.119.042584."
+ },
+ {
+  "review": "R9",
+  "index": "12",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 26597771 matches: Cassese/Byrne/Ndrepepa, Lancet 2016;387:537-544, DOI 10.1016/S0140-6736(15)00979-4."
+ },
+ {
+  "review": "R9",
+  "index": "13",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 28402237 matches: Wykrzykowska/Kraak/Hofma, NEJM 2017;376:2319-2328, DOI 10.1056/NEJMoa1614954."
+ },
+ {
+  "review": "R9",
+  "index": "14",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 34483097 resolves to an unrelated climate editorial. Real AIDA 5-year paper is PMID 34483094; title/journal/year/vol 17:1340-1347/DOI match, but claimed 2nd author 'Tijssen RYG' is actually 3rd (real order Kerkmeijer, Renkens, Tijssen)."
+ },
+ {
+  "review": "R9",
+  "index": "15",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 29100702 matches: Kereiakes/Ellis/Metzger (claimed 'Metzger C' = Metzger DC), JACC 2017;70:2852-2862, DOI 10.1016/j.jacc.2017.10.010."
+ },
+ {
+  "review": "R9",
+  "index": "16",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 28681264 resolves to an unrelated psychiatry paper. Real Neth Heart J meta-analysis is PMID 28612280; title/journal/year/vol 25/DOI match, but real authors are Elias/van Dongen/Kraak (NOT Stone/Kimura/Gao) and pages are 429-438 (claimed 525-538)."
+ },
+ {
+  "review": "R9",
+  "index": "17",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 28732815 matches: Ali/Serruys/Kimura, Lancet 2017;390:760-772, DOI 10.1016/S0140-6736(17)31470-8."
+ },
+ {
+  "review": "R9",
+  "index": "18",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 29089314 matches: Ali/Gao/Kimura, Circulation 2018;137:464-479, DOI 10.1161/CIRCULATIONAHA.117.031843."
+ },
+ {
+  "review": "R9",
+  "index": "19",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 28468954 matches: Mahmoud/Barakat/Elgendy, Circ Cardiovasc Interv 2017;10:e005286, DOI 10.1161/CIRCINTERVENTIONS.117.005286."
+ },
+ {
+  "review": "R9",
+  "index": "20",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 39818657 resolves to an unrelated adolescent-health paper. Real ABSORB final report is PMID 39814482; title/journal/year 2025/vol 18 match, but real first authors are Power/Camaj/Kereiakes (NOT Stone/Kereiakes/Gao), pages 1-11 (claimed 1-13), and DOI is 10.1016/j.jcin.2024.08.050 (claimed 10.1016/j.jcin.2024.10.046)."
+ },
+ {
+  "review": "R9",
+  "index": "21",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 31562507 resolves to an unrelated TREX1 rheumatology paper. Real time-varying JAMA Cardiol paper is PMID 31561250; Stone/Kimura/Gao, JAMA Cardiol 2019;4:1261-1269, DOI 10.1001/jamacardio.2019.4101 all match."
+ },
+ {
+  "review": "R9",
+  "index": "22",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 26762904 resolves to an unrelated scoring-system paper (DOI .022). Real Lipinski scaffold-thrombosis meta-analysis is PMID 26762906; Lipinski/Escarcega/Baker, JACC Cardiovasc Interv 2016;9:12-24, DOI 10.1016/j.jcin.2015.09.024 all match."
+ },
+ {
+  "review": "R9",
+  "index": "23",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 29100703 resolves to an accompanying editorial. Real Stone technique paper is PMID 29100704; Stone/Abizaid/Onuma, JACC 2017;70:2863-2874, DOI 10.1016/j.jacc.2017.09.1106 all match."
+ },
+ {
+  "review": "R9",
+  "index": "24",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 26916481 matches: Puricel/Cuculi/Weissner, JACC 2016;67:921-931, DOI 10.1016/j.jacc.2015.12.019."
+ },
+ {
+  "review": "R9",
+  "index": "25",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 37438008 resolves to an unrelated ARVC paper. Real 5-year improved-technique paper is PMID 37207924; title/journal/year 2023/vol 82:183-195/DOI match, but real 2nd author is Kereiakes not Ellis (claimed Stone/Ellis/Gori; real Stone/Kereiakes/Gori)."
+ },
+ {
+  "review": "R9",
+  "index": "26",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 30266412 matches: Stone/Ellis/Gori, Lancet 2018;392:1530-1540, DOI 10.1016/S0140-6736(18)32283-9."
+ },
+ {
+  "review": "R9",
+  "index": "27",
+  "model": "claude",
+  "expert": 1,
+  "verifypy": 1,
+  "cove": 1,
+  "cove_verdict": "partial_mismatch",
+  "cove_notes": "Claimed PMID 32398201 resolves to an unrelated airflow-obstruction paper. Real COMPARE-ABSORB paper is PMID 32451321; Smits/Chang/Chevalier, EuroIntervention 2020;16:645-653, DOI 10.4244/EIJ-D-19-01079 all match."
+ },
+ {
+  "review": "R9",
+  "index": "28",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 31147304 matches: Kerkmeijer/Tijssen/Hofma, EuroIntervention 2019;15:603-606, DOI 10.4244/EIJ-D-19-00325."
+ },
+ {
+  "review": "R9",
+  "index": "29",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 26470647 matches: Haude/Ince/Abizaid, Lancet 2016;387:31-9 (PubMed pubdate 2015 within tolerance), DOI 10.1016/S0140-6736(15)00447-X."
+ },
+ {
+  "review": "R9",
+  "index": "30",
+  "model": "claude",
+  "expert": 0,
+  "verifypy": 0,
+  "cove": 0,
+  "cove_verdict": "verified",
+  "cove_notes": "PMID 37334655 matches: Haude/Wlodarczak/van der Schaaf, EuroIntervention 2023;19:e414-e422, DOI 10.4244/EIJ-D-23-00326."
+ }
+]

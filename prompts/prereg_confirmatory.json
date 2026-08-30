@@ -1,0 +1,92 @@
+{
+  "prereg_id": "cove-refhalluc-validation-2026-confirmatory-001",
+  "study_type": "confirmatory",
+  "version": 1,
+  "supersedes_pilot": "cove-refhalluc-validation-2026-001",
+  "locked_at": "2026-06-18",
+  "researcher": "Kihyun Jeon (imcardio@gmail.com)",
+  "project": "cove-refhalluc-validation-2026",
+  "external_timestamp": "NONE (OSF registration declined by researcher). Lock date is self-reported via harness SHA-256 hash only; this does not provide third-party proof of pre-data timing. Disclosed as a limitation.",
+  "hypothesis": {
+    "background": "LLM-generated medical writing frequently contains reference (citation) hallucinations. This confirmatory study, following a passed feasibility pilot, (a) quantifies and compares full-field reference-hallucination rates across three current frontier LLMs and across topics of differing literature density (resource tier), and (b) validates the cove-reference-verifier skill's detection performance against an independent expert gold standard.",
+    "unit_of_analysis": "an individual reference (citation) within an LLM-generated narrative review",
+    "H1_model_difference": "Full-field reference-hallucination rate differs across models (Claude Opus 4.8, GPT-5.5, Gemini 3.5).",
+    "H2_resource_gradient": "Hallucination rate decreases monotonically with topic literature density (low > moderate > high resource tier).",
+    "H3_model_by_tier_interaction": "The magnitude of the resource-tier effect differs across models (model x tier interaction; e.g., some models remain high even for high-resource topics).",
+    "H4_cove_detection": "Against an independent expert gold standard, cove detects full-field reference errors with sensitivity/specificity superior to weaker verification strategies (no-check, PMID-existence, PMID-title binding); detection depends on field-checking completeness.",
+    "primary_endpoint": "Full-field reference accuracy: proportion of references containing >=1 non-benign bibliographic error across any field (authors, title, journal, year, volume, issue, pages, PMID, DOI), evaluated against PubMed (primary oracle). Benign discrepancies (pre-specified) are excluded from the numerator.",
+    "secondary_endpoints": [
+      "Severity decomposition: identity errors (nonexistent paper / misattribution) vs field-fidelity errors (right paper, wrong author/journal/volume/page)",
+      "Hallucination TYPE distribution: misattribution (real paper, wrong identifier) vs fabrication (no such paper/identifier)",
+      "Honest omission rate (references with no stated PMID) as a model calibration measure",
+      "PMID/DOI binding-level hallucination rate (clean automated identity sub-metric)",
+      "Resource-tier gradient via ordered linear contrast",
+      "cove detection performance vs expert gold standard: sensitivity, specificity, PPV, NPV (Wilson 95% CI)",
+      "Verification-strategy ladder: sensitivity of no-check (0) vs PMID-existence vs PMID-title binding vs cove full-field",
+      "cove performance by error type (spiked secondary arm)",
+      "Benign discrepancy rate by type, by model and tier (supplement)"
+    ]
+  },
+  "design": {
+    "summary": "3 models x 9 topics (3 resource tiers x 3 topics) x 10 runs x 30 references = 270 reviews / 8100 references.",
+    "sample_size_rationale": "Not a classical power calculation. Multi-level nested design; size chosen for estimation precision and variance-component identification: 3 topics/tier give topic-level generalizability of the tier effect; 10 runs/cell characterize generation stochasticity (df=9/cell); per-model pooled rate 95% CI half-width ~3 percentage points. Runs are independent (fresh API sessions); cost is negligible so precision is favored.",
+    "models": ["Claude Opus 4.8 (claude-opus-4-8)", "GPT-5.5 (gpt-5.5-2026-04-23)", "Gemini 3.5 Flash (gemini-3.5-flash)"],
+    "model_id_logging": "Exact model string returned in each API response is logged (aliases may remap to dated snapshots).",
+    "generation_conditions": "All generation via provider APIs, fresh independent session per run (true independent replication). Web search / browsing / external tools OFF (parametric recall). Default decoding parameters per provider (temperature/top_p/top_k); actual applied values captured from API responses. temperature=0 not used (would remove stochasticity). Standardized prompt identical across models, only [TOPIC] substituted; output = narrative review (600-900 words) + JSON reference block (10 fields incl. index); English; exactly 30 references; Vancouver in-text. References restricted to PubMed-indexed peer-reviewed articles. PMID/DOI requested with NEUTRAL wording (not forced, not explicitly permitting omission) to observe natural calibration.",
+    "prompt_file": "input/PROMPT_confirmatory.md",
+    "topics_file": "phase2_hypothesis/tier_search_queries.json",
+    "resource_tier_classification": "Topic literature density measured once via fixed PubMed esearch query per topic on 2026-06-18 (counts frozen in topics_file). Density is a proxy for training-data exposure; measured at current date (model knowledge-cutoff heterogeneity acknowledged as a limitation). Tiers: low (mean ~314, range 191-477), moderate (~1472, 1175-1852), high (~3938, 3187-4849); monotonic, non-overlapping. Topics span diverse types (disease/procedure/device/drug) to keep references independent and the tier effect generalizable; topic type balanced across tiers."
+  },
+  "ground_truth": {
+    "arm1_model_comparison": "Automated. PubMed (E-utilities) is the single primary oracle. Stated PMID resolved; full-field comparison against the authoritative record using the pre-specified benign rubric and normalization. Non-resolving/mismatched identifiers trigger title reverse-search to classify misattribution vs fabrication. Crossref used only as a lightweight backstop to avoid labeling a verifiably-real non-PubMed paper as fabrication (such cases recorded as out-of-scope/instruction-deviation, not hallucination). PMID vs DOI pointing to different papers is recorded as an error signal.",
+    "arm2_cove_validation": "Independent expert gold standard. A single expert adjudicator (Kihyun Jeon) labels each reference (real / misattribution / fabricated + which fields wrong) using all available sources (PubMed, Crossref, Google Scholar, journal sites). cove's automated pipeline is NOT involved in establishing ground truth (breaks the pilot's circularity). cove is then run blind and compared. Single rater -> no inter-rater kappa.",
+    "circularity_resolution": "Pilot flaw (cove verdict and ground truth from same PubMed call) resolved in Arm 2 by independent human adjudication."
+  },
+  "cove_arms": {
+    "primary_real_review": "Stratified selection from the 270 reviews: hallucination-rate tercile (3) x model (3) = 9 cells, 1 review per cell = 9 reviews (~270 references). Cross-stratification by model ensures all three models' error styles are represented. Expert gold standard (above). Reports sensitivity/specificity centered (PPV/NPV not generalized due to enrichment).",
+    "secondary_spiked": "Balanced synthetic error set (per-type 5: fabricated-PMID, nonexistent-paper, author-misattribution, wrong-biblio) for type-resolved detection characteristics and the verification-strategy ladder.",
+    "automated_metric_validation": "The 270-reference expert-adjudicated set also validates the automated full-field classifier used in Arm 1 (estimates its sensitivity/specificity vs expert; large-arm estimate calibrated if needed)."
+  },
+  "outcome_operationalization": {
+    "benign_rubric_excluded_from_hallucination": [
+      "subtitle omission",
+      "epub-vs-print year difference (+/-1)",
+      "accent/unicode differences (e.g. e vs accented e)",
+      "journal-name official abbreviation vs full name",
+      "issue field absent (PubMed does not always record issue)"
+    ],
+    "normalization": "Year tolerance +/-1; accent normalization; subtitle-tolerant title matching; author surname-based matching; journal-abbreviation dictionary.",
+    "benign_reporting": "Benign discrepancies excluded from primary numerator but tracked and reported in supplement (rate by type, by model, by tier).",
+    "omission_handling": "Denominator for primary = references with a stated identifier (omissions excluded from primary). Omission reported separately as calibration (honesty), not as hallucination."
+  },
+  "analysis_plan": {
+    "primary_model": "Mixed-effects logistic regression: problematic ~ model * resource_tier + (1 | topic) + (1 | review). Fixed effects: model (3 levels), resource_tier (categorical low/moderate/high), model x resource_tier interaction. Random intercepts: topic (3 per tier), review (= model x topic x run, absorbs run-level stochasticity). Outputs adjusted hallucination rate + 95% CI per model and tier.",
+    "gradient_test": "resource_tier additionally treated as ordered factor; linear contrast (low<moderate<high) tests the monotonic decrease (addresses H2).",
+    "interaction_test": "model x resource_tier interaction tests H3.",
+    "multiplicity": "Confirmatory pre-specified contrasts (3 pairwise model comparisons; tier contrasts) Bonferroni-corrected. Exploratory analyses Benjamini-Hochberg FDR. Effect sizes + 95% CI always reported alongside p-values.",
+    "secondary_analyses": "Omission rate, type distribution (misattribution vs fabrication), benign rate: separate models / descriptive statistics.",
+    "cove_analysis": "Sensitivity/specificity/PPV/NPV with Wilson 95% CI; verification-strategy ladder (0 / PMID-existence / PMID-title binding / cove full-field); type-resolved detection (spiked). Single rater -> no kappa.",
+    "confirmatory_analyses": "Primary endpoint model (H1, H3) and the resource-gradient linear contrast (H2); cove detection superiority over weaker strategies (H4).",
+    "exploratory_analyses": "Type distribution, omission/calibration, benign patterns, automated-metric calibration, any post-hoc subgroup."
+  },
+  "known_limitations": [
+    "Resource tier partially confounded with topic identity despite 3 topics/tier; tier effect is descriptive across diverse topics, not a controlled manipulation.",
+    "Topic literature density measured at current date; model knowledge-cutoff heterogeneity may misalign the training-exposure proxy.",
+    "temperature scale is not invariant across providers; comparison reflects each model's standard-use condition, not identical stochasticity.",
+    "Automated full-field metric (Arm 1) carries measurement noise from fuzzy matching; mitigated and validated against the 270-reference expert set.",
+    "cove validation prevalence is enriched (high-hallucination reviews included) -> PPV/NPV not generalizable; sensitivity/specificity emphasized.",
+    "Single expert adjudicator -> no inter-rater reliability estimate.",
+    "Claude outputs are generated by the same model family operating this harness -> self-model bias possible (ICMJE disclosure); however generation is via fresh independent API sessions, unlike the pilot.",
+    "No external (OSF) timestamp; pre-data timing is self-reported via SHA-256 hash only.",
+    "Gemini is represented by gemini-3.5-flash (Flash tier); the only Gemini 3.5 model available to the account was Flash (no 3.5-pro). Claude Opus 4.8 and GPT-5.5 are frontier/top-tier. The Gemini comparison is therefore NOT capability-tier-matched; Gemini results must be interpreted with this caveat (a Flash model may hallucinate more than a same-version Pro model would)."
+  ],
+  "phi": "None. No patient data. Tool-validation research; not human-subjects research; IRB-exempt.",
+  "amendment_log": [
+    {
+      "date": "2026-06-18",
+      "stage": "pre-data (NO data generated yet; not HARKing)",
+      "change": "Connectivity test resolved exact model snapshots: gpt-5.5-2026-04-23, gemini-3.5-flash, claude-opus-4-8. Added limitation that Gemini is Flash-tier (only 3.5 model available), not tier-matched to the two frontier models. Gemini data generation pending account credit top-up (429 credits depleted at test time).",
+      "supersedes_hash": "sha256:151626e31a643aa3bcc9044398f619798ec729d0dcd9c29c0ef088fbd730a8b8"
+    }
+  ]
+}

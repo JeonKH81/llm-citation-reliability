@@ -1,0 +1,15 @@
+{
+  "measured_date": "2026-06-18",
+  "db": "PubMed (NCBI E-utilities esearch)",
+  "topics": [
+    {"topic": "transcaval_access", "tier": "low", "query": "\"transcaval\"[tiab] AND (access[tiab] OR TAVR[tiab] OR aortic[tiab])", "count": 191},
+    {"topic": "cardiac_contractility_modulation", "tier": "low", "query": "\"cardiac contractility modulation\"[tiab]", "count": 274},
+    {"topic": "coronary_slow_flow_phenomenon", "tier": "low", "query": "\"coronary slow flow\"[tiab]", "count": 477},
+    {"topic": "subcutaneous_ICD", "tier": "moderate", "query": "(\"subcutaneous implantable cardioverter\"[tiab] OR \"subcutaneous ICD\"[tiab])", "count": 1175},
+    {"topic": "bioresorbable_scaffold", "tier": "moderate", "query": "(\"bioresorbable scaffold\"[tiab] OR \"bioresorbable vascular scaffold\"[tiab] OR \"bioresorbable stent\"[tiab])", "count": 1389},
+    {"topic": "peripartum_cardiomyopathy", "tier": "moderate", "query": "\"peripartum cardiomyopathy\"[tiab]", "count": 1852},
+    {"topic": "sacubitril_valsartan_ARNI", "tier": "high", "query": "(\"sacubitril\"[tiab] OR \"ARNI\"[tiab])", "count": 3187},
+    {"topic": "left_atrial_appendage_closure", "tier": "high", "query": "(\"left atrial appendage closure\"[tiab] OR \"left atrial appendage occlusion\"[tiab])", "count": 3780},
+    {"topic": "cardiac_amyloidosis", "tier": "high", "query": "\"cardiac amyloidosis\"[tiab]", "count": 4849}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "transcaval_access",
+ "tier": "low",
+ "prompt_topic": "transcaval access for structural heart interventions",
+ "run": 7,
+ "timestamp": "2026-06-18T21:46:04.392660+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 287,
+  "completion_tokens": 1075,
+  "total_tokens": 1362,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1024,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t reliably provide exactly 30 PubMed-indexed references with verified PMIDs and DOIs solely from memory without risking inaccurate or fabricated citation metadata."
+}

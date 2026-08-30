@@ -1,0 +1,33 @@
+{
+ "model_key": "gemini",
+ "model_requested": "gemini-3.5-flash",
+ "model_returned": "gemini-3.5-flash",
+ "provider": "google",
+ "topic_slug": "bioresorbable_scaffold",
+ "tier": "moderate",
+ "prompt_topic": "bioresorbable vascular scaffolds in percutaneous coronary intervention",
+ "run": 1,
+ "timestamp": "2026-06-21T00:25:01.353719+09:00",
+ "decoding": {
+  "maxOutputTokens": 24000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "MAX_TOKENS",
+ "usage": {
+  "promptTokenCount": 309,
+  "candidatesTokenCount": 1186,
+  "totalTokenCount": 24305,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 309
+   }
+  ],
+  "thoughtsTokenCount": 22810,
+  "serviceTier": "standard"
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "Percutaneous coronary intervention (PCI) has evolved continuously over the past four decades. The limitations of plain old balloon angioplasty, such as acute vessel recoil and dissection, were addressed by the introduction of bare-metal stents (BMS). However, BMS were plagued by high rates of neointimal hyperplasia, leading to in-stent restenosis. Although second-generation metallic drug-eluting stents (DES) drastically reduced restenosis rates, they introduced a persistent risk of very late stent thrombosis (VLST) and neoatherosclerosis due to the permanent presence of metallic struts, permanent polymers, and chronic vascular inflammation [1, 2]. To overcome the limitations of the \"metallic cage,\" which restricts natural vasomotion, impairs non-invasive imaging, and complicates potential future surgical revascularization, the concept of bioresorbable vascular scaffolds (BVS) was developed [3-5].\n\nThe fundamental premise of BVS is to provide temporary mechanical scaffolding and antiproliferative drug delivery during the initial 6 to 12 months—the period when the vessel is most vulnerable to recoil and constrictive remodeling—and then undergo complete bioresorption over 2 to 3 years, leaving behind a healthy, functional vessel [5, 6]. The most extensively evaluated device was the Absorb everolimus-eluting BVS (Absorb BVS; Abbott Vascular), consisting of a poly-L-lactic acid (PLLA) backbone and a poly-D,L-lactic acid (PDLLA) coating. Initial first-in-human studies (ABSORB Cohort A and B) and large-scale prospective registries (ABSORB-EXTEND) demonstrated excellent feasibility, high procedural success, and the restoration of vasomotion at long-term follow-up [2, 3, 7-9].\n\nThese early successes paved the way for large-scale randomized controlled trials (RCTs). The ABSORB II, ABSORB III, ABSORB China, and ABSORB Japan trials compared the Absorb BVS with the metallic everolimus-eluting stent (EES; Xience) [10-13]. Although ABSORB III met its primary endpoint of non-inferiority for target lesion failure (TLF) at 1 year [11], longer-term clinical outcomes began to reveal concerning safety signals. At 3 years of follow-up, both the ABSORB II and ABSORB III trials reported a significantly higher rate of TLF and scaffold thrombosis (ST) in patients treated with BVS compared with those receiving EES [10, 14]. This safety signal was further reinforced by the AIDA trial, which was halted early by its data safety monitoring board due to a nearly fourfold increased risk of very late scaffold thrombosis in the BVS group [15]. Pooled patient-level meta-analyses and systematic reviews confirmed that BVS was associated with a higher rate of both early and very late scaffold thrombosis compared with conventional second-generation metallic DES [16-18].\n\nSeveral factors contributed to this high rate of scaffold thrombosis. Mechanically, first-generation polymeric BVS required thick struts (~150 μm) to maintain sufficient radial strength, which disrupted laminar blood flow, promoted platelet activation, and delayed endothelialization [4, 19]. Optical coherence tomography (OCT) imaging trials identified that scaffold underexpansion, malapposition, and vessel sizing mismatch were critical drivers of scaffold thrombosis [19]. In response, clinical experts proposed a standardized, meticulous implantation technique known as the \"PSP\" protocol: pre-dilatation (P) with non-compliant balloons, accurate sizing (S) of the target vessel, and high-pressure post-dilatation (P) with non-compliant balloons [20]. Retrospective and prospective analyses confirmed that adherence to the PSP technique significantly minimized the risk of BVS thrombosis, showing outcomes comparable to those of metallic DES when implemented in appropriately sized vessels [21, 22]. The utility of BVS was also explored in complex lesion subsets, such as ST-segment elevation myocardial infarction (STEMI), where vascular healing and plaque sealing properties of BVS were of particular interest [23]. To further validate real-world and long-term profiles, researchers continued to publish large-scale data analyses, highlighting the role of vessel selection and sizing in reducing clinical failures [24, 25].\n\nDue to the safety concerns and the availability of highly refined metallic DES, the first-generation Absorb BVS was withdrawn from the clinical market. Nonetheless, the clinical demand for a transient scaffolding device persists. Current research has shifted focus toward next-generation technologies [26]. These include thinner-strut polymeric devices, such as the novolimus-eluting DESOLVE scaffold, which features a faster degradation profile and strut thickness under 120 μm [27], and magnesium-based bioresorbable scaffolds. The drug-eluting absorbable metal scaffold (DREAMS) and its clinical successor, Magmaris, leverage magnesium's natural bioresorption properties to provide high radial strength with a thinner profile, demonstrating favorable safety and performance profiles in clinical trials such as BIOSOLVE-I [28] and BIOSOLVE-II [29]. Meanwhile, registries of scaffold thrombosis continue to highlight the critical role of structural degradation and malapposition in first-generation devices [30].\n\nIn conclusion, bioresorbable vascular scaffolds represent an ambitious and conceptually logical milestone in interventional cardiology. While first-generation polymer-based BVS devices faced critical clinical limitations due to thick struts and suboptimal implantation techniques, they provided invaluable insights into vascular biology and deployment optimization. Next-generation scaffolds, focusing on"
+}

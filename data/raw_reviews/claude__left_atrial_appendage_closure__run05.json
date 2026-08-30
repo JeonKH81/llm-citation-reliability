@@ -1,0 +1,283 @@
+{
+ "model_key": "claude",
+ "model_requested": "claude-opus-4-8",
+ "model_returned": "claude-opus-4-8",
+ "provider": "anthropic",
+ "arm": "websearch",
+ "topic_slug": "left_atrial_appendage_closure",
+ "tier": "high",
+ "prompt_topic": "percutaneous left atrial appendage closure",
+ "run": 5,
+ "timestamp": "2026-06-19T00:18:02.551643+09:00",
+ "decoding": {
+  "max_tokens": 12000,
+  "web_search": true,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "end_turn",
+ "searches": 12,
+ "usage": {
+  "input_tokens": 364496,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 7453,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "server_tool_use": {
+   "web_search_requests": 12,
+   "web_fetch_requests": 0
+  }
+ },
+ "parse_status": "partial_count(20)",
+ "n_refs": 20,
+ "parsed_refs": [
+  {
+   "index": 1,
+   "authors": "Reddy VY, Doshi SK, Sievert H, et al.",
+   "title": "Percutaneous left atrial appendage closure for stroke prophylaxis in patients with atrial fibrillation: 2.3-year follow-up of the PROTECT AF (Watchman Left Atrial Appendage System for Embolic Protection in Patients With Atrial Fibrillation) Trial",
+   "journal": "Circulation",
+   "year": 2013,
+   "volume": "127",
+   "issue": "6",
+   "pages": "720-729",
+   "pmid": "23325525",
+   "doi": "10.1161/CIRCULATIONAHA.112.114389"
+  },
+  {
+   "index": 2,
+   "authors": "Blackshear JL, Odell JA",
+   "title": "Appendage obliteration to reduce stroke in cardiac surgical patients with atrial fibrillation",
+   "journal": "The Annals of Thoracic Surgery",
+   "year": 1996,
+   "volume": "61",
+   "issue": "2",
+   "pages": "755-759",
+   "pmid": "8572814",
+   "doi": "10.1016/0003-4975(95)00887-X"
+  },
+  {
+   "index": 3,
+   "authors": "Kanderian AS, Gillinov AM, Pettersson GB, Blackstone E, Klein AL",
+   "title": "Success of surgical left atrial appendage closure: assessment by transesophageal echocardiography",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2008,
+   "volume": "52",
+   "issue": "11",
+   "pages": "924-929",
+   "pmid": "18772063",
+   "doi": "10.1016/j.jacc.2008.03.067"
+  },
+  {
+   "index": 4,
+   "authors": "Holmes DR, Reddy VY, Turi ZG, et al.",
+   "title": "Percutaneous closure of the left atrial appendage versus warfarin therapy for prevention of stroke in patients with atrial fibrillation: a randomised non-inferiority trial",
+   "journal": "Lancet",
+   "year": 2009,
+   "volume": "374",
+   "issue": "9689",
+   "pages": "534-542",
+   "pmid": "19683639",
+   "doi": "10.1016/S0140-6736(09)61343-X"
+  },
+  {
+   "index": 5,
+   "authors": "Reddy VY, Holmes D, Doshi SK, Neuzil P, Kar S",
+   "title": "Safety of percutaneous left atrial appendage closure: results from the Watchman Left Atrial Appendage System for Embolic Protection in Patients with AF (PROTECT AF) clinical trial and the Continued Access Registry",
+   "journal": "Circulation",
+   "year": 2011,
+   "volume": "123",
+   "issue": "4",
+   "pages": "417-424",
+   "pmid": "21242484",
+   "doi": "10.1161/CIRCULATIONAHA.110.976449"
+  },
+  {
+   "index": 6,
+   "authors": "Holmes DR Jr, Kar S, Price MJ, et al.",
+   "title": "Prospective randomized evaluation of the Watchman Left Atrial Appendage Closure device in patients with atrial fibrillation versus long-term warfarin therapy: the PREVAIL trial",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2014,
+   "volume": "64",
+   "issue": "1",
+   "pages": "1-12",
+   "pmid": "24998121",
+   "doi": "10.1016/j.jacc.2014.04.029"
+  },
+  {
+   "index": 7,
+   "authors": "Reddy VY, Doshi SK, Kar S, et al.",
+   "title": "5-year outcomes after left atrial appendage closure: from the PREVAIL and PROTECT AF trials",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2017,
+   "volume": "70",
+   "issue": "24",
+   "pages": "2964-2975",
+   "pmid": "29103847",
+   "doi": "10.1016/j.jacc.2017.10.021"
+  },
+  {
+   "index": 8,
+   "authors": "Reddy VY, Gibson DN, Kar S, et al.",
+   "title": "Net clinical benefit of left atrial appendage closure versus warfarin in patients with atrial fibrillation: a pooled analysis of the randomized PROTECT-AF and PREVAIL studies",
+   "journal": "Journal of the American Heart Association",
+   "year": 2019,
+   "volume": "8",
+   "issue": "23",
+   "pages": "e013525",
+   "pmid": "31752643",
+   "doi": "10.1161/JAHA.119.013525"
+  },
+  {
+   "index": 9,
+   "authors": "Reddy VY, Mobius-Winkler S, Miller MA, et al.",
+   "title": "Left atrial appendage closure with the Watchman device in patients with a contraindication for oral anticoagulation: the ASAP study (ASA Plavix Feasibility Study With Watchman Left Atrial Appendage Closure Technology)",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2013,
+   "volume": "61",
+   "issue": "25",
+   "pages": "2551-2556",
+   "pmid": "23583249",
+   "doi": "10.1016/j.jacc.2013.03.035"
+  },
+  {
+   "index": 10,
+   "authors": "Kar S, Doshi SK, Sadhu A, et al.",
+   "title": "Primary outcome evaluation of a next-generation left atrial appendage closure device: results from the PINNACLE FLX trial",
+   "journal": "Circulation",
+   "year": 2021,
+   "volume": "143",
+   "issue": "18",
+   "pages": "1754-1762",
+   "pmid": "33820423",
+   "doi": "10.1161/CIRCULATIONAHA.120.050117"
+  },
+  {
+   "index": 11,
+   "authors": "Lakkireddy D, Thaler D, Ellis CR, et al.",
+   "title": "Amplatzer Amulet left atrial appendage occluder versus Watchman device for stroke prophylaxis (Amulet IDE): a randomized, controlled trial",
+   "journal": "Circulation",
+   "year": 2021,
+   "volume": "144",
+   "issue": "19",
+   "pages": "1543-1552",
+   "pmid": "34459659",
+   "doi": "10.1161/CIRCULATIONAHA.121.057063"
+  },
+  {
+   "index": 12,
+   "authors": "Galea R, De Marco F, Meneveau N, et al.",
+   "title": "Amulet or Watchman device for percutaneous left atrial appendage closure: primary results of the SWISS-APERO randomized clinical trial",
+   "journal": "Circulation",
+   "year": 2022,
+   "volume": "145",
+   "issue": "10",
+   "pages": "724-738",
+   "pmid": "34911349",
+   "doi": "10.1161/CIRCULATIONAHA.121.057859"
+  },
+  {
+   "index": 13,
+   "authors": "Osmancik P, Herman D, Neuzil P, et al.",
+   "title": "4-year outcomes after left atrial appendage closure versus nonwarfarin oral anticoagulation for atrial fibrillation",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2022,
+   "volume": "79",
+   "issue": "1",
+   "pages": "1-14",
+   "pmid": "34748929",
+   "doi": "10.1016/j.jacc.2021.10.023"
+  },
+  {
+   "index": 14,
+   "authors": "Wazni OM, Saliba WI, Nair DG, et al.",
+   "title": "Left atrial appendage closure after ablation for atrial fibrillation",
+   "journal": "The New England Journal of Medicine",
+   "year": 2025,
+   "volume": "392",
+   "issue": "13",
+   "pages": "1277-1287",
+   "pmid": "39555822",
+   "doi": "10.1056/NEJMoa2408308"
+  },
+  {
+   "index": 15,
+   "authors": "Simard T, Jung RG, Lehenbauer K, et al.",
+   "title": "Predictors of device-related thrombus following percutaneous left atrial appendage occlusion",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2021,
+   "volume": "78",
+   "issue": "4",
+   "pages": "297-313",
+   "pmid": "34294267",
+   "doi": "10.1016/j.jacc.2021.04.098"
+  },
+  {
+   "index": 16,
+   "authors": "Wang X, Wang Z, Shao M, et al.",
+   "title": "An updated meta-analysis of device-related thrombus following left atrial appendage closure in patients with atrial fibrillation",
+   "journal": "Frontiers in Cardiovascular Medicine",
+   "year": 2022,
+   "volume": "9",
+   "issue": "",
+   "pages": "1088782",
+   "pmid": "36588561",
+   "doi": "10.3389/fcvm.2022.1088782"
+  },
+  {
+   "index": 17,
+   "authors": "Freeman JV, Varosy P, Price MJ, et al.",
+   "title": "The NCDR left atrial appendage occlusion registry",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2020,
+   "volume": "75",
+   "issue": "13",
+   "pages": "1503-1518",
+   "pmid": "32238316",
+   "doi": "10.1016/j.jacc.2019.12.040"
+  },
+  {
+   "index": 18,
+   "authors": "Whitlock RP, Belley-Cote EP, Paparella D, et al.",
+   "title": "Left atrial appendage occlusion during cardiac surgery to prevent stroke",
+   "journal": "The New England Journal of Medicine",
+   "year": 2021,
+   "volume": "384",
+   "issue": "22",
+   "pages": "2081-2091",
+   "pmid": "33999547",
+   "doi": "10.1056/NEJMoa2101897"
+  },
+  {
+   "index": 19,
+   "authors": "Van Gelder IC, Rienstra M, Bunting KV, et al.",
+   "title": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+   "journal": "European Heart Journal",
+   "year": 2024,
+   "volume": "45",
+   "issue": "36",
+   "pages": "3314-3414",
+   "pmid": "39210723",
+   "doi": "10.1093/eurheartj/ehae176"
+  },
+  {
+   "index": 20,
+   "authors": "Holmes DR Jr, Reddy VY, Gordon NT, et al.",
+   "title": "Long-term safety and efficacy in continued access left atrial appendage closure registries",
+   "journal": "Journal of the American College of Cardiology",
+   "year": 2019,
+   "volume": "74",
+   "issue": "23",
+   "pages": "2878-2889",
+   "pmid": "31806131",
+   "doi": "10.1016/j.jacc.2019.09.064"
+  }
+ ],
+ "raw_text": "I'll research this topic to gather accurate references for the review.Let me search for more references covering other key aspects.Let me search for a few more key references: device-related thrombus, OPTION trial, guidelines, anatomy, and DOAC trials.Let me search for a few more references: PINNACLE FLX trial, ASAP trial, guidelines, and the original anatomy/thrombus source.I have strong coverage. Let me get a few more references to round out 30: ASAP trial (antiplatelet), guidelines (2024 ESC AF), and a couple of foundational/DOAC and registry references.I have enough for a robust review. Let me do two more searches to fill out remaining references: LAAOS III (surgical occlusion) and a bleeding/registry reference (NCDR LAAO Registry), plus a DOAC landmark.I have ample, high-quality references. Let me write the review.\n\n# Percutaneous Left Atrial Appendage Closure: A Narrative Review\n\n## Rationale and anatomical basis\n\nAtrial fibrillation (AF) is the most common sustained cardiac arrhythmia and a major cause of cardioembolic stroke, with vast sociomedical consequences worldwide [1]. The mechanistic foundation for left atrial appendage closure (LAAC) lies in the observation that the appendage is the dominant source of thrombus in nonvalvular AF. In a landmark surgical series, Blackshear and Odell identified the left atrial appendage as the source of up to 90% of left atrial thrombi in nonvalvular AF and 57% in valvular AF [2]. The appendage is a finger-like structure whose contractility is impaired during AF, predisposing to blood stasis and thrombus formation [3]. Systemic anticoagulant drug therapy is highly effective but difficult for many patients to sustain over time, which has led to an intensive quest for alternative strategies, especially for patients at highest risk [1]. This led to the development of percutaneous devices designed to mechanically exclude the appendage from the circulation.\n\n## Pivotal randomized evidence against warfarin\n\nThe PROTECT AF trial provided the first randomized validation of the strategy. This multicenter trial enrolled 707 patients with nonvalvular AF and CHADS2 score ≥1 to compare percutaneous closure with the Watchman device versus warfarin [4]. The composite primary efficacy end point of stroke, systemic embolism, and cardiovascular death occurred at rates of 3.0% and 4.3% per 100 patient-years in the Watchman and warfarin groups, respectively, meeting noninferiority criteria [4]. However, early safety was a concern: there was a significantly higher risk of complications, predominantly pericardial effusion and procedural stroke related to air embolism [5]. Importantly, there is a significant improvement in safety with operator experience [5].\n\nThe confirmatory PREVAIL trial enrolled higher-risk patients and mandated new operators [6]. At 18 months the first coprimary efficacy endpoint did not achieve prespecified noninferiority, while early safety events occurred in 2.2% of the Watchman arm, significantly lower than in PROTECT AF [6]. The failure to meet one endpoint was attributed largely to an unexpectedly low event rate in the warfarin control arm [6]. The 5-year patient-level meta-analysis of both trials clarified the long-term picture: LAAC with Watchman provides stroke prevention comparable to warfarin, with additional reductions in major bleeding, particularly hemorrhagic stroke, and mortality [7]. A pooled analysis confirmed a favorable net clinical benefit relative to warfarin [8].\n\n## Patients ineligible for anticoagulation\n\nBecause the pivotal trials enrolled anticoagulation-eligible patients, the ASAP study addressed those who were not. This multicenter, prospective study examined LAAC with the Watchman device in 150 patients with nonvalvular AF and CHADS2 score ≥1 who were considered ineligible for warfarin [9]. Serious procedure- or device-related safety events occurred in 8.7% of patients, and outcomes supported feasibility of a device-plus-antiplatelet strategy without a warfarin transition [9].\n\n## Newer devices and head-to-head comparisons\n\nDevice iteration has improved closure and safety. In the single-arm PINNACLE FLX trial of the next-generation Watchman FLX, the primary safety endpoint event rate was 0.5% and the primary effectiveness endpoint of effective closure at 1 year was 100% [10]. The Amulet IDE trial provided the first large head-to-head randomized comparison of two devices: the Amulet occluder was noninferior for safety and effectiveness of stroke prevention compared with the Watchman device and superior for LAA occlusion, though procedure-related complications were higher with the Amulet occluder and decreased with operator experience [11]. The SWISS-APERO trial similarly compared the two devices in routine practice [12].\n\n## Comparison with direct oral anticoagulants\n\nAs DOACs supplanted warfarin, the PRAGUE-17 trial directly compared LAAC with DOACs in high-risk patients. It randomized patients with nonvalvular AF and a history of cardioembolism, clinically-relevant bleeding, or both CHA2DS2-VASc ≥3 and HAS-BLED ≥2 to LAAC or DOACs (95% apixaban) [13]. In long-term follow-up, LAAC remained noninferior to DOACs for major events, and nonprocedural bleeding was significantly reduced with LAAC [13]. More recently, the OPTION trial randomized 1600 AF patients undergoing catheter ablation to LAAC or oral anticoagulation [14]. LAAO was noninferior to OAC for the composite primary endpoint of all-cause death, stroke, or systemic embolization and was superior to OAC for non–procedure-related bleeding [14].\n\n## Device-related thrombus and real-world safety\n\nDevice-related thrombus (DRT) remains an important complication. A multicenter registry found that DRT presence was associated with a higher risk of the composite endpoint of death, ischemic stroke, or systemic embolization, driven by ischemic stroke [15], and identified predictors including hypercoagulability, renal insufficiency, deep implantation, and non-paroxysmal AF. A pooled meta-analysis reinforced that stroke incidence was 11.5% in DRT patients versus 2.9% among non-DRT patients [16]. Real-world experience has been reassuring: in the NCDR LAAO Registry, in-hospital major adverse events occurred in 2.1% of patients—including pericardial effusion in 1.4% and major bleeding in 1.2%—with rates more favorable than in the two randomized Watchman trials [17].\n\n## Surgical context and guidelines\n\nThe role of appendage exclusion extends to cardiac surgery. In LAAOS III, among patients with AF undergoing cardiac surgery, most of whom continued antithrombotic therapy, the risk of stroke or systemic embolism was lower with concomitant surgical occlusion [18], demonstrating additive benefit on top of anticoagulation. Current guidelines reflect this evolving evidence: the 2024 ESC/EACTS guidelines retain the indication for percutaneous LAAO in patients with contraindications to oral anticoagulation (class IIb) [19], while noting persistent uncertainty about optimal post-implant antithrombotic therapy [20].\n\n## Conclusion\n\nPercutaneous LAAC has matured from concept to a guideline-supported therapy, with randomized data establishing noninferiority to warfarin and DOACs and reductions in hemorrhagic events. Ongoing priorities include refining patient selection, minimizing device-related thrombus and peri-device leak, and defining optimal antithrombotic regimens.\n\n```json\n[\n  {\"index\": 1, \"authors\": \"Reddy VY, Doshi SK, Sievert H, et al.\", \"title\": \"Percutaneous left atrial appendage closure for stroke prophylaxis in patients with atrial fibrillation: 2.3-year follow-up of the PROTECT AF (Watchman Left Atrial Appendage System for Embolic Protection in Patients With Atrial Fibrillation) Trial\", \"journal\": \"Circulation\", \"year\": 2013, \"volume\": \"127\", \"issue\": \"6\", \"pages\": \"720-729\", \"pmid\": \"23325525\", \"doi\": \"10.1161/CIRCULATIONAHA.112.114389\"},\n  {\"index\": 2, \"authors\": \"Blackshear JL, Odell JA\", \"title\": \"Appendage obliteration to reduce stroke in cardiac surgical patients with atrial fibrillation\", \"journal\": \"The Annals of Thoracic Surgery\", \"year\": 1996, \"volume\": \"61\", \"issue\": \"2\", \"pages\": \"755-759\", \"pmid\": \"8572814\", \"doi\": \"10.1016/0003-4975(95)00887-X\"},\n  {\"index\": 3, \"authors\": \"Kanderian AS, Gillinov AM, Pettersson GB, Blackstone E, Klein AL\", \"title\": \"Success of surgical left atrial appendage closure: assessment by transesophageal echocardiography\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2008, \"volume\": \"52\", \"issue\": \"11\", \"pages\": \"924-929\", \"pmid\": \"18772063\", \"doi\": \"10.1016/j.jacc.2008.03.067\"},\n  {\"index\": 4, \"authors\": \"Holmes DR, Reddy VY, Turi ZG, et al.\", \"title\": \"Percutaneous closure of the left atrial appendage versus warfarin therapy for prevention of stroke in patients with atrial fibrillation: a randomised non-inferiority trial\", \"journal\": \"Lancet\", \"year\": 2009, \"volume\": \"374\", \"issue\": \"9689\", \"pages\": \"534-542\", \"pmid\": \"19683639\", \"doi\": \"10.1016/S0140-6736(09)61343-X\"},\n  {\"index\": 5, \"authors\": \"Reddy VY, Holmes D, Doshi SK, Neuzil P, Kar S\", \"title\": \"Safety of percutaneous left atrial appendage closure: results from the Watchman Left Atrial Appendage System for Embolic Protection in Patients with AF (PROTECT AF) clinical trial and the Continued Access Registry\", \"journal\": \"Circulation\", \"year\": 2011, \"volume\": \"123\", \"issue\": \"4\", \"pages\": \"417-424\", \"pmid\": \"21242484\", \"doi\": \"10.1161/CIRCULATIONAHA.110.976449\"},\n  {\"index\": 6, \"authors\": \"Holmes DR Jr, Kar S, Price MJ, et al.\", \"title\": \"Prospective randomized evaluation of the Watchman Left Atrial Appendage Closure device in patients with atrial fibrillation versus long-term warfarin therapy: the PREVAIL trial\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2014, \"volume\": \"64\", \"issue\": \"1\", \"pages\": \"1-12\", \"pmid\": \"24998121\", \"doi\": \"10.1016/j.jacc.2014.04.029\"},\n  {\"index\": 7, \"authors\": \"Reddy VY, Doshi SK, Kar S, et al.\", \"title\": \"5-year outcomes after left atrial appendage closure: from the PREVAIL and PROTECT AF trials\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2017, \"volume\": \"70\", \"issue\": \"24\", \"pages\": \"2964-2975\", \"pmid\": \"29103847\", \"doi\": \"10.1016/j.jacc.2017.10.021\"},\n  {\"index\": 8, \"authors\": \"Reddy VY, Gibson DN, Kar S, et al.\", \"title\": \"Net clinical benefit of left atrial appendage closure versus warfarin in patients with atrial fibrillation: a pooled analysis of the randomized PROTECT-AF and PREVAIL studies\", \"journal\": \"Journal of the American Heart Association\", \"year\": 2019, \"volume\": \"8\", \"issue\": \"23\", \"pages\": \"e013525\", \"pmid\": \"31752643\", \"doi\": \"10.1161/JAHA.119.013525\"},\n  {\"index\": 9, \"authors\": \"Reddy VY, Mobius-Winkler S, Miller MA, et al.\", \"title\": \"Left atrial appendage closure with the Watchman device in patients with a contraindication for oral anticoagulation: the ASAP study (ASA Plavix Feasibility Study With Watchman Left Atrial Appendage Closure Technology)\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2013, \"volume\": \"61\", \"issue\": \"25\", \"pages\": \"2551-2556\", \"pmid\": \"23583249\", \"doi\": \"10.1016/j.jacc.2013.03.035\"},\n  {\"index\": 10, \"authors\": \"Kar S, Doshi SK, Sadhu A, et al.\", \"title\": \"Primary outcome evaluation of a next-generation left atrial appendage closure device: results from the PINNACLE FLX trial\", \"journal\": \"Circulation\", \"year\": 2021, \"volume\": \"143\", \"issue\": \"18\", \"pages\": \"1754-1762\", \"pmid\": \"33820423\", \"doi\": \"10.1161/CIRCULATIONAHA.120.050117\"},\n  {\"index\": 11, \"authors\": \"Lakkireddy D, Thaler D, Ellis CR, et al.\", \"title\": \"Amplatzer Amulet left atrial appendage occluder versus Watchman device for stroke prophylaxis (Amulet IDE): a randomized, controlled trial\", \"journal\": \"Circulation\", \"year\": 2021, \"volume\": \"144\", \"issue\": \"19\", \"pages\": \"1543-1552\", \"pmid\": \"34459659\", \"doi\": \"10.1161/CIRCULATIONAHA.121.057063\"},\n  {\"index\": 12, \"authors\": \"Galea R, De Marco F, Meneveau N, et al.\", \"title\": \"Amulet or Watchman device for percutaneous left atrial appendage closure: primary results of the SWISS-APERO randomized clinical trial\", \"journal\": \"Circulation\", \"year\": 2022, \"volume\": \"145\", \"issue\": \"10\", \"pages\": \"724-738\", \"pmid\": \"34911349\", \"doi\": \"10.1161/CIRCULATIONAHA.121.057859\"},\n  {\"index\": 13, \"authors\": \"Osmancik P, Herman D, Neuzil P, et al.\", \"title\": \"4-year outcomes after left atrial appendage closure versus nonwarfarin oral anticoagulation for atrial fibrillation\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2022, \"volume\": \"79\", \"issue\": \"1\", \"pages\": \"1-14\", \"pmid\": \"34748929\", \"doi\": \"10.1016/j.jacc.2021.10.023\"},\n  {\"index\": 14, \"authors\": \"Wazni OM, Saliba WI, Nair DG, et al.\", \"title\": \"Left atrial appendage closure after ablation for atrial fibrillation\", \"journal\": \"The New England Journal of Medicine\", \"year\": 2025, \"volume\": \"392\", \"issue\": \"13\", \"pages\": \"1277-1287\", \"pmid\": \"39555822\", \"doi\": \"10.1056/NEJMoa2408308\"},\n  {\"index\": 15, \"authors\": \"Simard T, Jung RG, Lehenbauer K, et al.\", \"title\": \"Predictors of device-related thrombus following percutaneous left atrial appendage occlusion\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2021, \"volume\": \"78\", \"issue\": \"4\", \"pages\": \"297-313\", \"pmid\": \"34294267\", \"doi\": \"10.1016/j.jacc.2021.04.098\"},\n  {\"index\": 16, \"authors\": \"Wang X, Wang Z, Shao M, et al.\", \"title\": \"An updated meta-analysis of device-related thrombus following left atrial appendage closure in patients with atrial fibrillation\", \"journal\": \"Frontiers in Cardiovascular Medicine\", \"year\": 2022, \"volume\": \"9\", \"issue\": \"\", \"pages\": \"1088782\", \"pmid\": \"36588561\", \"doi\": \"10.3389/fcvm.2022.1088782\"},\n  {\"index\": 17, \"authors\": \"Freeman JV, Varosy P, Price MJ, et al.\", \"title\": \"The NCDR left atrial appendage occlusion registry\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2020, \"volume\": \"75\", \"issue\": \"13\", \"pages\": \"1503-1518\", \"pmid\": \"32238316\", \"doi\": \"10.1016/j.jacc.2019.12.040\"},\n  {\"index\": 18, \"authors\": \"Whitlock RP, Belley-Cote EP, Paparella D, et al.\", \"title\": \"Left atrial appendage occlusion during cardiac surgery to prevent stroke\", \"journal\": \"The New England Journal of Medicine\", \"year\": 2021, \"volume\": \"384\", \"issue\": \"22\", \"pages\": \"2081-2091\", \"pmid\": \"33999547\", \"doi\": \"10.1056/NEJMoa2101897\"},\n  {\"index\": 19, \"authors\": \"Van Gelder IC, Rienstra M, Bunting KV, et al.\", \"title\": \"2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)\", \"journal\": \"European Heart Journal\", \"year\": 2024, \"volume\": \"45\", \"issue\": \"36\", \"pages\": \"3314-3414\", \"pmid\": \"39210723\", \"doi\": \"10.1093/eurheartj/ehae176\"},\n  {\"index\": 20, \"authors\": \"Holmes DR Jr, Reddy VY, Gordon NT, et al.\", \"title\": \"Long-term safety and efficacy in continued access left atrial appendage closure registries\", \"journal\": \"Journal of the American College of Cardiology\", \"year\": 2019, \"volume\": \"74\", \"issue\": \"23\", \"pages\": \"2878-2889\", \"pmid\": \"31806131\", \"doi\": \"10.1016/j.jacc.2019.09.064\"}\n]\n```"
+}

@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "coronary_slow_flow_phenomenon",
+ "tier": "low",
+ "prompt_topic": "the coronary slow flow phenomenon",
+ "run": 9,
+ "timestamp": "2026-06-18T21:49:08.839804+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 285,
+  "completion_tokens": 1110,
+  "total_tokens": 1395,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 985,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t reliably produce a 600–900 word medical-journal narrative review citing exactly 30 PubMed-indexed peer-reviewed articles with verified PMIDs and DOIs without using external tools or a provided reference set.\n\nProviding unverified PMIDs/DOIs or full bibliographic metadata from memory would risk fabricating references, which would be inappropriate for a medical journal review. If you provide a reference list, or allow verification with PubMed/Crossref, I can write the review and format the references exactly as requested."
+}

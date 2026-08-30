@@ -1,0 +1,92 @@
+[
+ {
+  "review": "R1",
+  "model": "gemini",
+  "topic": "cardiac_contractility_modulation",
+  "ref_index": 20,
+  "verified_pmid": "35363499",
+  "claimed_title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+  "in_text_claim": "Similarly, the 2022 ACC/AHA/HFSA Guidelines include CCM as a consideration to alleviate symptoms and reduce hospitalizations in this distinct patient cohort [20].\n\nThis recognition is supported by long-term clinical experience under contemporary systems [21], aggregated patient-level meta-analyses [22], and the 2019 ESC/HFA clinical practice update [23].",
+  "context": "### Patient Selection and Clinical Guidelines\nBased on this extensive evidence, contemporary clinical guidelines have recognized CCM. The 2021 European Society of Cardiology (ESC) Guidelines formally endorsed CCM as a Class IIb recommendation for symptomatic patients with EF 25%–45% and narrow QRS complexes to improve exercise capacity and quality of life [19]. Similarly, the 2022 ACC/AHA/HFSA Guidelines include CCM as a consideration to alleviate symptoms and reduce hospitalizations in this distinct patient cohort [20]."
+ },
+ {
+  "review": "R2",
+  "model": "gemini",
+  "topic": "sacubitril_valsartan_ARNI",
+  "ref_index": 3,
+  "verified_pmid": "25176015",
+  "claimed_title": "Angiotensin-neprilysin inhibition versus enalapril in heart failure",
+  "in_text_claim": "Sacubitril/valsartan represents a critical breakthrough by combining a neprilysin inhibitor with an ARB, targeting complementary neurohormonal systems to improve cardiorenal outcomes [3].\n\n### Pharmacological Mechanism of Action\nNeprilysin is a neutral endopeptidase responsible for the degradation of several endogenous vasoactive peptides, including atrial natriuretic peptide (ANP), B-type natriuretic peptide (BNP), and C-type natriuretic peptide (CNP) [1].",
+  "context": "### Introduction\nThe management of heart failure (HF) has evolved dramatically over the last decade, transitioning from traditional neurohormonal blockade to advanced, multi-pathway modulation. Central to this therapeutic paradigm shift is the development of sacubitril/valsartan (originally known as LCZ696), the first-in-class angiotensin receptor-neprilysin inhibitor (ARNI) [1]. For decades, renin-angiotensin-aldosterone system (RAAS) inhibitors like angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor blockers (ARBs) were the sole cornerstones of treatment [2]. Sacubitril/valsartan represents a critical breakthrough by combining a neprilysin inhibitor with an ARB, targeting complementary neurohormonal systems to improve cardiorenal outcomes [3]."
+ },
+ {
+  "review": "R3",
+  "model": "gpt",
+  "topic": "bioresorbable_scaffold",
+  "ref_index": 26,
+  "verified_pmid": "23332165",
+  "claimed_title": "Safety and performance of the drug-eluting absorbable metal scaffold (DREAMS) in patients with de-novo coronary lesions: 12 month results of the prospective, multicentre, first-in-man BIOSOLVE-I trial",
+  "in_text_claim": "Drug-eluting magnesium iterations improved performance: BIOSOLVE-I with paclitaxel-eluting DREAMS demonstrated acceptable 12-month safety [26], and BIOSOLVE-II with sirolimus-eluting DREAMS 2G/Magmaris showed low target-lesion failure and no definite/probable scaffold thrombosis in selected lesions [27].",
+  "context": "The field has therefore shifted from validating the concept to redesigning the platform. Magnesium-based resorbable metallic scaffolds offer more stent-like mechanical behavior, faster resorption, smoother electropolished struts, and potentially lower thrombogenicity. The PROGRESS-AMS bare magnesium scaffold proved feasibility but suffered excessive late loss from rapid loss of radial strength [25]. Drug-eluting magnesium iterations improved performance: BIOSOLVE-I with paclitaxel-eluting DREAMS demonstrated acceptable 12-month safety [26], and BIOSOLVE-II with sirolimus-eluting DREAMS 2G/Magmaris showed low target-lesion failure and no definite/probable scaffold thrombosis in selected lesions [27]. Imaging studies documented progressive strut integration and resorption [28]. Nonetheless, randomized MAGSTEMI data in STEMI did not prove superior vasomotion and raised concerns about angiographic efficacy and target-lesion failure versus metallic sirolimus-eluting stents [29]; 3-year results remained hypothesis-generating [30]."
+ },
+ {
+  "review": "R4",
+  "model": "gemini",
+  "topic": "left_atrial_appendage_closure",
+  "ref_index": 20,
+  "verified_pmid": "31504441",
+  "claimed_title": "EHRA/EAPCI expert consensus statement on catheter-based left atrial appendage occlusion - an update",
+  "in_text_claim": "Notably, LAAC was associated with a significant reduction in long-term non-procedural clinically relevant bleeding.\n\n#### Guideline Recommendations and Indications\nBased on this extensive body of evidence, current expert consensus statements [20], along with the European Society of Cardiology (ESC) [21] and the American Heart Association/American College of Cardiology/Heart Rhythm Society (AHA/ACC/HRS) guidelines [22], recommend LAAC as a Class IIb treatment option.",
+  "context": "#### Guideline Recommendations and Indications\nBased on this extensive body of evidence, current expert consensus statements [20], along with the European Society of Cardiology (ESC) [21] and the American Heart Association/American College of Cardiology/Heart Rhythm Society (AHA/ACC/HRS) guidelines [22], recommend LAAC as a Class IIb treatment option. It is primarily indicated for patients with non-valvular AF who have an elevated stroke risk (CHA2DS2-VASc ≥2) and a strong contraindication to long-term oral anticoagulation, such as those with a history of life-threatening bleeding without a reversible cause."
+ },
+ {
+  "review": "R5",
+  "model": "claude",
+  "topic": "cardiac_contractility_modulation",
+  "ref_index": 12,
+  "verified_pmid": "21872139",
+  "claimed_title": "Subgroup analysis of a randomized controlled trial evaluating the safety and efficacy of cardiac contractility modulation in advanced heart failure",
+  "in_text_claim": "However, it showed significant improvements in the secondary endpoints of peak VO2 and Minnesota Living With Heart Failure Questionnaire score, and was the first to show that patients with an LVEF between 35% and 45% benefited the most, whereas those with EF < 25% derived less benefit [12].\n\nThis signal prompted the confirmatory FIX-HF-5C trial.",
+  "context": "The earliest randomized trial, FIX-HF-4, established proof of concept. This randomized, double-blind, crossover study of CCM signals enrolled 164 subjects with ejection fraction < 35% and NYHA Class II or III symptoms who received a CCM pulse generator [8]. The pivotal FIX-HF-5 study followed. In this prospective, unblinded, randomized, parallel-group, controlled trial, 428 patients were randomly assigned to receive optimal medical therapy plus CCM (n = 215) versus OMT alone (n = 213) [9,10]. That study met its primary safety endpoint, but the primary efficacy endpoint—a responders' analysis of changes in ventilatory anaerobic threshold—was not met [11]. However, it showed significant improvements in the secondary endpoints of peak VO2 and Minnesota Living With Heart Failure Questionnaire score, and was the first to show that patients with an LVEF between 35% and 45% benefited the most, whereas those with EF < 25% derived less benefit [12]."
+ },
+ {
+  "review": "R6",
+  "model": "gpt",
+  "topic": "transcaval_access",
+  "ref_index": 5,
+  "verified_pmid": "27989885",
+  "claimed_title": "Transcaval access and closure for transcatheter aortic valve replacement: a prospective investigation",
+  "in_text_claim": "In the landmark prospective multicenter NHLBI transcaval TAVR study, access and closure were successful in 99 of 100 attempts, with no emergency open surgical bailout and 30-day survival of 92% in a prohibitive-access cohort [5].",
+  "context": "The technique matured alongside CT-based procedural planning. Contemporary planning identifies a calcium-free aortic target, excludes interposed bowel or important venous/arterial branches, measures sheath reach from the femoral vein, defines fluoroscopic crossing projections, and preplans bailout covered-stent options [3,4]. In the landmark prospective multicenter NHLBI transcaval TAVR study, access and closure were successful in 99 of 100 attempts, with no emergency open surgical bailout and 30-day survival of 92% in a prohibitive-access cohort [5]. Importantly, 12-month follow-up showed near-universal spontaneous closure of residual fistulas and no late vascular sequelae, occluder fracture, migration, or visceral injury [6]. European and single-center comparative series subsequently confirmed feasibility, while highlighting that results depend on operator experience, meticulous CT planning, and disciplined closure technique [7,8]."
+ },
+ {
+  "review": "R7",
+  "model": "claude",
+  "topic": "subcutaneous_ICD",
+  "ref_index": 18,
+  "verified_pmid": "36343346",
+  "claimed_title": "Perioperative safety and early patient and device outcomes among subcutaneous versus transvenous implantable cardioverter defibrillator implantations: a randomized, multicenter trial",
+  "in_text_claim": "The PRAETORIAN-XL trial subsequently aimed to determine whether the S-ICD is superior to the TV-ICD with respect to device-related complications at 8-year follow-up [17].\n\nThe ATLAS trial enrolled younger patients and those at elevated lead-complication risk; it showed a statistically significant reduction in perioperative, lead-related complications, which occurred in 1 patient (0.4%) with an S-ICD and in 12 patients (4.8%) with TV-ICD [18].",
+  "context": "The ATLAS trial enrolled younger patients and those at elevated lead-complication risk; it showed a statistically significant reduction in perioperative, lead-related complications, which occurred in 1 patient (0.4%) with an S-ICD and in 12 patients (4.8%) with TV-ICD [18]. Overall, the S-ICD reduces perioperative, lead-related complications without significantly compromising the effectiveness of ICD shocks, but with more early postoperative pain and a trend for more inappropriate shocks [18,19]. Patient-reported quality-of-life analyses from ATLAS found no substantive differences between device groups [20]. Meta-analyses pooling randomised and propensity-matched data support fewer lead-related complications with the S-ICD [21,22]."
+ },
+ {
+  "review": "R8",
+  "model": "gpt",
+  "topic": "transcaval_access",
+  "ref_index": 20,
+  "verified_pmid": "35512920",
+  "claimed_title": "Transcaval versus transaxillary TAVR in contemporary practice: a propensity-weighted analysis",
+  "in_text_claim": "In an 8-center propensity-weighted analysis, transcaval access had lower stroke or transient ischemic attack than transaxillary access, with similar bleeding, vascular complications, length of stay, and survival [20].",
+  "context": "Comparative evidence remains observational. Single-center and multicenter studies suggest that transcaval TAVR provides outcomes at least comparable with other nonfemoral strategies, while preserving transfemoral-like operator ergonomics and avoiding thoracotomy, carotid manipulation, and brachial plexus risk [20-23]. In an 8-center propensity-weighted analysis, transcaval access had lower stroke or transient ischemic attack than transaxillary access, with similar bleeding, vascular complications, length of stay, and survival [20]. Meta-analyses report high procedural success and acceptable 30-day outcomes, but confidence intervals remain wide because published cohorts are small, selected, and center-experience dependent [17,24,25]."
+ },
+ {
+  "review": "R9",
+  "model": "claude",
+  "topic": "bioresorbable_scaffold",
+  "ref_index": 12,
+  "verified_pmid": "26597771",
+  "claimed_title": "Everolimus-eluting bioresorbable vascular scaffolds versus everolimus-eluting metallic stents: a meta-analysis of randomised controlled trials",
+  "in_text_claim": "Among 2309 patients with the bioresorbable scaffold, the rate of definite or probable stent thrombosis was 1.3% compared with 0.5% in the 1382 patients who received a Xience stent [12].",
+  "context": "Longer follow-up tempered initial enthusiasm. ABSORB III demonstrated noninferior target lesion failure at 1 year, but between 1 and 3 years and cumulative to 3 years, adverse event rates—particularly target-vessel myocardial infarction and scaffold thrombosis—were increased after the scaffold [11]. A landmark meta-analysis crystallized the concern. Among 2309 patients with the bioresorbable scaffold, the rate of definite or probable stent thrombosis was 1.3% compared with 0.5% in the 1382 patients who received a Xience stent [12]. The investigator-initiated AIDA all-comers trial reinforced this. In a preliminary report there was no significant difference in the primary outcome of target-vessel failure, but treatment with the bioresorbable scaffold was associated with a significantly higher incidence of overall and very late device thrombosis than the metallic stent through 2 years [13]. Final 5-year AIDA results and 3-year ABSORB III data extended these observations [14,15]."
+ }
+]

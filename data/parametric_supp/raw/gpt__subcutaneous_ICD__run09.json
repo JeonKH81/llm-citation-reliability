@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "subcutaneous_ICD",
+ "tier": "moderate",
+ "prompt_topic": "the subcutaneous implantable cardioverter-defibrillator",
+ "run": 9,
+ "timestamp": "2026-06-18T21:52:54.632243+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 290,
+  "completion_tokens": 1817,
+  "total_tokens": 2107,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1660,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t responsibly complete this request as specified.\n\nThe limiting issue is the requirement to provide **exactly 30 PubMed-indexed peer-reviewed references with verified PMIDs and DOIs**, while also being instructed **not to browse or use external tools**. I cannot reliably guarantee the accuracy of 30 full bibliographic records—including PMIDs and DOIs—from memory alone, and I should not fabricate or guess citation metadata for a medical journal-style review.\n\nIf you allow use of verified bibliographic data, I can produce the requested 600–900 word narrative review with exactly 30 Vancouver-style citations and a complete JSON reference list."
+}

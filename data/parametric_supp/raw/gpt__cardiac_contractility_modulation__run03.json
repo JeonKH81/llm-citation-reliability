@@ -1,0 +1,35 @@
+{
+ "model_key": "gpt",
+ "model_requested": "gpt-5.5-2026-04-23",
+ "model_returned": "gpt-5.5-2026-04-23",
+ "provider": "openai",
+ "topic_slug": "cardiac_contractility_modulation",
+ "tier": "low",
+ "prompt_topic": "cardiac contractility modulation therapy for heart failure",
+ "run": 3,
+ "timestamp": "2026-06-18T21:47:20.049323+09:00",
+ "decoding": {
+  "max_completion_tokens": 16000,
+  "temperature": "provider_default(omitted)"
+ },
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 288,
+  "completion_tokens": 2636,
+  "total_tokens": 2924,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2560,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "parse_status": "fail",
+ "n_refs": 0,
+ "parsed_refs": null,
+ "raw_text": "I’m sorry, but I can’t reliably provide exactly 30 PubMed-indexed references with accurate PMIDs and DOIs for this topic solely from memory, and I don’t want to fabricate bibliographic metadata."
+}
