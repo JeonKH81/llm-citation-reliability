@@ -2,7 +2,7 @@
 
 Code, prompts, generated outputs, verification results, and analysis scripts for the study evaluating reference hallucination in three frontier large language models (Claude Opus 4.8, GPT-5.5, Gemini 3.5 Flash) generating cardiology narrative reviews with web search enabled, and validating an LLM-based Chain-of-Verification (CoVe) reference verifier against an expert gold standard.
 
-Shin R, Lee J-M, Kwun J-S, Cho H-W, Kang S-H, Jeon K-H. Manuscript under submission (2026). A Zenodo DOI will be added on acceptance.
+Shin R, Lee J-M, Park J, Kwun J-S, Cho H-W, Kang S-H, Jeon K-H. Preprint: medRxiv, https://doi.org/10.64898/2026.08.31.26361806 (2026). Manuscript under journal submission; a Zenodo DOI will be added on acceptance.
 
 ## What is here
 
